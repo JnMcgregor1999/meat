@@ -1,0 +1,17 @@
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Web.Framework.deps.json
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Web.Framework.dll
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Web.Framework.pdb
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Core.dll
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Data.dll
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Services.dll
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.2\Nop.Services.pdb
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.csproj.AssemblyReference.cache
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.AssemblyInfoInputs.cache
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.AssemblyInfo.cs
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.csproj.CoreCompileInputs.cache
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.csproj.CopyComplete
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.dll
+C:\Repository\meatWebSite\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.2\Nop.Web.Framework.pdb

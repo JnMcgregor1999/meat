@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Nop.Plugin.Tax.Avalara
+build_property.ProjectDir = C:\Repository\meatWebSite\Plugins\Nop.Plugin.Tax.Avalara\

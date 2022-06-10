@@ -1,0 +1,9 @@
+﻿{
+  "InstalledPluginNames": [
+    "SevenSpikes.Core",
+    "SevenSpikes.Theme.Minimal"
+  ],
+  "PluginNamesToUninstall": [],
+  "PluginNamesToDelete": [],
+  "PluginNamesToInstall": []
+}

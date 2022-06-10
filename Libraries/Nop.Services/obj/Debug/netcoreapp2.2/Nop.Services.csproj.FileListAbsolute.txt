@@ -1,0 +1,15 @@
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.deps.json
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.dll
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.pdb
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.dll
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.dll
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+C:\Repository\meatWebSite\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.AssemblyReference.cache
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfoInputs.cache
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfo.cs
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CoreCompileInputs.cache
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CopyComplete
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.dll
+C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.pdb
