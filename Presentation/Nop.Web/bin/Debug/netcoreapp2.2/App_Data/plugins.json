@@ -4,9 +4,15 @@
     "SevenSpikes.Theme.Minimal",
     "SevenSpikes.Theme.Lavella",
     "SevenSpikes.Theme.ShopAll",
-    "SevenSpikes.Theme.Smart"
+    "SevenSpikes.Theme.Smart",
+    "Payments.PayPalSmartPaymentButtons"
   ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],
-  "PluginNamesToInstall": []
+  "PluginNamesToInstall": [
+    {
+      "Item1": "Shipping.FixedByWeightByTotal",
+      "Item2": "a59ae8d4-d6e9-4a3b-9ad3-0e7c5dbafc3d"
+    }
+  ]
 }

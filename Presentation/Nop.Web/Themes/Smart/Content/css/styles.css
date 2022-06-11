@@ -785,7 +785,7 @@ script {
 	line-height: 0; /*firefox line-height bug fix*/
 }
 .header-logo a img {
-	max-width: 100%;
+	max-width: 50%;
 }
 .header .search-box {
     margin: 20px 0;
