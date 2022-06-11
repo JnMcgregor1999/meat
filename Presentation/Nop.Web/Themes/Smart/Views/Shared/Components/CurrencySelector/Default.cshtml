@@ -1,0 +1,35 @@
+﻿@model CurrencySelectorModel
+
+@inject Nop.Core.IWebHelper webHelper
+
+@if (Model.AvailableCurrencies.Count > 1)
+{
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/jquery.styleSelect.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/jquery.jscrollpane.min.js");
+
+    var returnUrl = webHelper.GetRawUrl(Context.Request);
+    var currencies = Model.AvailableCurrencies.Select(x => new SelectListItem
+    {
+        Text = x.Name,
+        Value = Url.RouteUrl("ChangeCurrency", new { customercurrency = x.Id, returnUrl }, webHelper.CurrentRequestProtocol),
+        Selected = x.Id.Equals(Model.CurrentCurrencyId)
+    });
+
+    <div class="currency-selector">
+        <div class="header-currencyselector">
+
+            <select id="customerCurrency" name="customerCurrency" asp-items="@currencies" onchange="setLocation(this.value);" aria-label="@T("Currency.Selector.Label")"></select>
+
+            <script type="text/javascript" asp-location="Footer">
+                $(document).ready(function () {
+                    var options = {
+                        styleClass: "new_select",
+                        jScrollPane: 1
+                    }
+                    $("#customerCurrency").styleSelect(options);
+                });
+            </script>
+
+        </div>
+    </div>
+}

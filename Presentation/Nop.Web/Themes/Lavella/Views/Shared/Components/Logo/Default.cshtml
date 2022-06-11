@@ -1,0 +1,25 @@
+﻿@model LogoModel
+
+@using Nop.Core
+@using Nop.Services.Localization
+
+@inject IThemeContext themeContext
+@inject IStoreContext storeContext
+
+@{
+    var logoPath = $"~/Themes/{themeContext.WorkingThemeName}/Content/img/logo.png";
+    var lavellaLogo = await Component.InvokeAsync("Widget", new { widgetZone = "lavella_theme_logo"});
+}
+
+<div class="header-logo">
+    <a href="@Url.RouteUrl("Homepage")" class="logo">
+        @if (!String.IsNullOrEmpty(lavellaLogo.ToHtmlString()))
+        {
+            @lavellaLogo
+        }
+        else
+        {
+            <img title="" alt="@Model.StoreName" src="@Url.Content(logoPath)">
+        }
+    </a>
+</div>

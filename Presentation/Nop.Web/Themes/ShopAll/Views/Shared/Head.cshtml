@@ -1,0 +1,70 @@
+﻿@using Nop.Web.Framework;
+@using Nop.Core.Infrastructure;
+@using Nop.Web.Framework.UI;
+@using Nop.Core;
+@{
+    var supportRtl = EngineContext.Current.Resolve<IWorkContext>().WorkingLanguage.Rtl;
+    var isIeEightOrLess = false;
+    var userAgent = Url.ActionContext.HttpContext.Request.Headers["User-Agent"];
+    var isSafari = false;
+    if (!String.IsNullOrEmpty(userAgent) && userAgent.ToString().IndexOf("Safari", StringComparison.InvariantCultureIgnoreCase) > 0 && userAgent.ToString().IndexOf("Chrome", StringComparison.InvariantCultureIgnoreCase) == -1)
+    {
+        isSafari = true;
+    }
+    if (!String.IsNullOrEmpty(userAgent) && userAgent.ToString().ToLower().IndexOf("MSIE 8.0", StringComparison.InvariantCultureIgnoreCase) > 0)
+    {
+        isIeEightOrLess = true;
+    }
+    if (supportRtl)
+    {
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/ie8-fix.rtl.css");
+    }
+    if (isIeEightOrLess)
+    {
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/css/ie8-fix.css");
+    }
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Core/Styles/perfect-scrollbar.min.css");
+    if (supportRtl)
+    {
+        if (isSafari)
+        {
+            Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/safari-fix.rtl.css");
+        }
+
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/forum.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/1280.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/1024.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/768.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/480.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/mobile-only.rtl.css");
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/tables.rtl.css");
+    }
+
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/forum.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/1280.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/1024.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/768.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/480.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/mobile-only.css");
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/tables.css");
+
+
+    if (supportRtl)
+    {
+        Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/styles.rtl.css");
+    }
+
+    Html.AppendCssFileParts("~/Themes/ShopAll/Content/CSS/styles.css");
+
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/footable.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/perfect-scrollbar.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/sevenspikes.core.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/sevenspikes.theme.ex.min.js");
+    if (isIeEightOrLess)
+    {
+        Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/selectivizr.min.js");
+        Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/SevenSpikes.Core/Scripts/respond.min.js");
+    }
+
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Themes/ShopAll/Content/scripts/ShopAll.js");
+}

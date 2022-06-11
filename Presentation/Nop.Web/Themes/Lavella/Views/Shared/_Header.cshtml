@@ -1,0 +1,28 @@
+﻿@using Nop.Core
+@using Nop.Core.Infrastructure
+@using Nop.Services.Localization
+@using Nop.Web.Framework.Themes
+
+<div class="h-wrapper">
+    <div class="header">
+        @await Component.InvokeAsync("Widget", new { widgetZone = "header"})
+        <div class="header-links-wrapper">
+            <div class="header-content-wrapper">
+                <div class="desktop-header-right">
+                    <div class="search-box store-search-box">
+        		@await Component.InvokeAsync("SearchBox")
+                    </div>
+                    <div class="header-selectors-wrapper">
+                        @await Component.InvokeAsync("TaxTypeSelector")
+                        @await Component.InvokeAsync("CurrencySelector")
+                        @await Component.InvokeAsync("LanguageSelector")
+                        
+            		@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderSelectors })
+                    </div>
+                </div>
+                @await Component.InvokeAsync("HeaderLinks")
+            </div>
+        </div>
+    </div>
+@await Component.InvokeAsync("Logo")
+</div>

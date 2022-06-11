@@ -1,0 +1,4725 @@
+{
+  "FilePath": "c:\\Repository\\meatWebSite\\Presentation\\Nop.Web\\Nop.Web.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [
+      {
+        "HashCode": -2128545350,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;a&gt; elements.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-action"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-controller"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-area"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-page"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-page-handler"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-host"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-protocol"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-all-route-data"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-route-",
+                "NameComparison": 1
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-controller",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Controller"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-area",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Area"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Page"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page-handler",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page handler.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "PageHandler"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-protocol",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The protocol for the URL, such as \"http\" or \"https\".\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Protocol"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-host",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The host name.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Host"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The URL fragment name.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-route",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if one of <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Area\" /> \n            or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Route"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-all-route-data",
+            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
+            "IndexerNamePrefix": "asp-route-",
+            "IndexerTypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "RouteValues"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"
+        }
+      },
+      {
+        "HashCode": 661462784,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.TagHelper\" /> implementation targeting &lt;cache&gt; elements.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "cache"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "priority",
+            "TypeName": "Microsoft.Extensions.Caching.Memory.CacheItemPriority?",
+            "Documentation": "\n            <summary>\n            Gets or sets the <see cref=\"T:Microsoft.Extensions.Caching.Memory.CacheItemPriority\" /> policy for the cache entry.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Priority"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryBy"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-header",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of HTTP request headers to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByHeader"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-query",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of query parameters to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByQuery"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-route",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of route data parameters to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByRoute"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-cookie",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCookie"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-user",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByUser"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-on",
+            "TypeName": "System.DateTimeOffset?",
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresOn"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-after",
+            "TypeName": "System.TimeSpan?",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresAfter"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-sliding",
+            "TypeName": "System.TimeSpan?",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresSliding"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "enabled",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Enabled"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper"
+        }
+      },
+      {
+        "HashCode": -1487049917,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.TagHelper\" /> implementation targeting &lt;distributed-cache&gt; elements.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "distributed-cache",
+            "Attributes": [
+              {
+                "Name": "name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a unique name to discriminate cached entries.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryBy"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-header",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of HTTP request headers to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByHeader"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-query",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of query parameters to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByQuery"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-route",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of route data parameters to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByRoute"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-cookie",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCookie"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-user",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByUser"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-on",
+            "TypeName": "System.DateTimeOffset?",
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresOn"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-after",
+            "TypeName": "System.TimeSpan?",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresAfter"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-sliding",
+            "TypeName": "System.TimeSpan?",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresSliding"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "enabled",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Enabled"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper"
+        }
+      },
+      {
+        "HashCode": 2038576708,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;environment&gt; elements that conditionally renders\n            content based on the current value of <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            If the environment is not listed in the specified <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Names\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Include\" />, \n            or if it is in <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Exclude\" />, the content will not be rendered.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "environment"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "names",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content should be rendered.\n            If the current environment is also in the <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Exclude\" /> list, the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Names"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content should be rendered.\n            If the current environment is also in the <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Exclude\" /> list, the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Include"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Exclude"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper"
+        }
+      },
+      {
+        "HashCode": 1762299400,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;button&gt; elements and &lt;input&gt; elements with\n            their <c>type</c> attribute set to <c>image</c> or <c>submit</c>.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-action"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-controller"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-area"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-page"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-page-handler"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-all-route-data"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-route-",
+                "NameComparison": 1
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-action"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-controller"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-area"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-page"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-page-handler"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-all-route-data"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "image",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-route-",
+                "NameComparison": 1
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-action"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-controller"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-area"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-page"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-page-handler"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-all-route-data"
+              }
+            ]
+          },
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "type",
+                "Value": "submit",
+                "ValueComparison": 1
+              },
+              {
+                "Name": "asp-route-",
+                "NameComparison": 1
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-controller",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Controller"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-area",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Area"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Page"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page-handler",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page handler.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "PageHandler"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-route",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper.Action\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper.Controller\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Route"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-all-route-data",
+            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
+            "IndexerNamePrefix": "asp-route-",
+            "IndexerTypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "RouteValues"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper"
+        }
+      },
+      {
+        "HashCode": -1678191042,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;form&gt; elements.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-controller",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Controller"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-area",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Area"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Page"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-page-handler",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the page handler.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "PageHandler"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-antiforgery",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Whether the antiforgery token should be generated.\n            </summary>\n            <value>Defaults to <c>false</c> if user provides an <c>action</c> attribute\n            or if the <c>method</c> is <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.FormMethod.Get\" />; <c>true</c> otherwise.</value>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Antiforgery"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-route",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Action\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Controller\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Route"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-all-route-data",
+            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
+            "IndexerNamePrefix": "asp-route-",
+            "IndexerTypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "RouteValues"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"
+        }
+      },
+      {
+        "HashCode": 1030209176,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;img&gt; elements that supports file versioning.\n            </summary>\n            <remarks>\n            The tag helper won't process for cases with just the 'src' attribute.\n            </remarks>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "img",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-append-version"
+              },
+              {
+                "Name": "src"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "src",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Source of the image.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Src"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the src urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper"
+        }
+      },
+      {
+        "HashCode": 1658818199,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;input&gt; elements with an <c>asp-for</c> attribute.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-format",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The format string (see https://msdn.microsoft.com/en-us/library/txafckwd.aspx) used to format the\n            <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.For\" /> result. Sets the generated \"value\" attribute to that formatted string.\n            </summary>\n            <remarks>\n            Not used if the provided (see <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" />) or calculated \"type\" attribute value is\n            <c>checkbox</c>, <c>password</c>, or <c>radio</c>. That is, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> is used when calling\n            <see cref=\"M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Format"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "type",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The type of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine the <see cref=\"T:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator\" />\n            helper to call and the default <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> value. A default <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> is not calculated\n            if the provided (see <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" />) or calculated \"type\" attribute value is <c>checkbox</c>,\n            <c>hidden</c>, <c>password</c>, or <c>radio</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "InputTypeName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "value",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The value of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine the generated \"checked\" attribute\n            if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" /> is \"radio\". Must not be <c>null</c> in that case.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper"
+        }
+      },
+      {
+        "HashCode": 1439492335,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;label&gt; elements with an <c>asp-for</c> attribute.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "label",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper"
+        }
+      },
+      {
+        "HashCode": -1123208378,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;link&gt; elements that supports fallback href paths.\n            </summary>\n            <remarks>\n            The tag helper won't process for cases with just the 'href' attribute.\n            </remarks>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-href-include"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-href-exclude"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-href"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-href-include"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-href-exclude"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-test-class"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-test-property"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-fallback-test-value"
+              }
+            ]
+          },
+          {
+            "TagName": "link",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-append-version"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "href",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Address of the linked resource.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Href"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-href-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to load.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "HrefInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-href-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.HrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "HrefExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-href",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The URL of a CSS stylesheet to fallback to in the case the primary one fails.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackHref"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-suppress-fallback-integrity",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> value.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the href urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-href-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to fallback to in the case the primary\n            one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackHrefInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-href-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackHrefExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-test-class",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The class name defined in the stylesheet to use for the fallback test.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestProperty\" /> and <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestValue\" />,\n            and either <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackTestClass"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-test-property",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The CSS property name to use for the fallback test.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestClass\" /> and <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestValue\" />,\n            and either <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackTestProperty"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-test-value",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The CSS property value to use for the fallback test.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestClass\" /> and <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestProperty\" />,\n            and either <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackTestValue"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper"
+        }
+      },
+      {
+        "HashCode": -138874158,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;option&gt; elements.\n            </summary>\n            <remarks>\n            This <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> works in conjunction with <see cref=\"T:Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper\" />. It reads elements\n            content but does not modify that content. The only modification it makes is to add a <c>selected</c> attribute\n            in some cases.\n            </remarks>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "option"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "value",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Specifies a value for the &lt;option&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper"
+        }
+      },
+      {
+        "HashCode": -1627900878,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            Renders a partial view.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "partial",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name or path of the partial view that is rendered to the response.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model. Cannot be used together with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.Model\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "model",
+            "TypeName": "System.Object",
+            "Documentation": "\n            <summary>\n            The model to pass into the partial view. Cannot be used together with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.For\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Model"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "optional",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            When optional, executing the tag helper will no-op if the view cannot be located. \n            Otherwise will throw stating the view could not be found.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Optional"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "fallback-name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            View to lookup if the view specified by <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.Name\" /> cannot be located.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "view-data",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary",
+            "IndexerNamePrefix": "view-data-",
+            "IndexerTypeName": "System.Object",
+            "Documentation": "\n            <summary>\n            A <see cref=\"T:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary\" /> to pass into the partial view.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ViewData"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper"
+        }
+      },
+      {
+        "HashCode": -1163299669,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;script&gt; elements that supports fallback src paths.\n            </summary>\n            <remarks>\n            The tag helper won't process for cases with just the 'src' attribute.\n            </remarks>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-src-include"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-src-exclude"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-src"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-src-include"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-src-exclude"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-test"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-append-version"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "src",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Address of the external script to use.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Src"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-src-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to load.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SrcInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-src-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.SrcInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SrcExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The URL of a Script tag to fallback to in the case the primary one fails.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrc"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-suppress-fallback-integrity",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrc\" /> value.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to src urls.\n            </summary>\n            <remarks>\n            A query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to fallback to in the case the\n            primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrcInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrcInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrcExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-test",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The script method defined in the primary script to use for the fallback test.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackTestExpression"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper"
+        }
+      },
+      {
+        "HashCode": 305774099,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;select&gt; elements with <c>asp-for</c> and/or\n            <c>asp-items</c> attribute(s).\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "select",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          },
+          {
+            "TagName": "select",
+            "Attributes": [
+              {
+                "Name": "asp-items"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-items",
+            "TypeName": "System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>",
+            "Documentation": "\n            <summary>\n            A collection of <see cref=\"T:Microsoft.AspNetCore.Mvc.Rendering.SelectListItem\" /> objects used to populate the &lt;select&gt; element with\n            &lt;optgroup&gt; and &lt;option&gt; elements.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Items"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper"
+        }
+      },
+      {
+        "HashCode": 1439188945,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;textarea&gt; elements with an <c>asp-for</c> attribute.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "textarea",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper"
+        }
+      },
+      {
+        "HashCode": 1203238852,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting any HTML element with an <c>asp-validation-for</c>\n            attribute.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "span",
+            "Attributes": [
+              {
+                "Name": "asp-validation-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-validation-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper"
+        }
+      },
+      {
+        "HashCode": 949146784,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting any HTML element with an <c>asp-validation-summary</c>\n            attribute.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "div",
+            "Attributes": [
+              {
+                "Name": "asp-validation-summary"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-validation-summary",
+            "TypeName": "Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary",
+            "IsEnum": true,
+            "Documentation": "\n            <summary>\n            If <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.All\" /> or <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.ModelOnly\" />, appends a validation\n            summary. Otherwise (<see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.None\" />, the default), this tag helper does nothing.\n            </summary>\n            <exception cref=\"T:System.ArgumentException\">\n            Thrown if setter is called with an undefined <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper.ValidationSummary\" /> value e.g.\n            <c>(ValidationSummary)23</c>.\n            </exception>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ValidationSummary"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper"
+        }
+      },
+      {
+        "HashCode": 501036895,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.SpaServices",
+        "Documentation": "\n            <summary>\n            A tag helper for prerendering JavaScript applications on the server.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "*",
+            "Attributes": [
+              {
+                "Name": "asp-prerender-module"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-module",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Specifies the path to the JavaScript module containing prerendering code.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ModuleName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-export",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            If set, specifies the name of the CommonJS export that is the prerendering function to execute.\n            If not set, the JavaScript module's default CommonJS export must itself be the prerendering function.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExportName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-data",
+            "TypeName": "System.Object",
+            "Documentation": "\n            <summary>\n            An optional JSON-serializable parameter to be supplied to the prerendering code.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "CustomDataParameter"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-timeout",
+            "TypeName": "System.Int32",
+            "Documentation": "\n            <summary>\n            The maximum duration to wait for prerendering to complete.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "TimeoutMillisecondsParameter"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper"
+        }
+      },
+      {
+        "HashCode": 1204414131,
+        "Kind": "ITagHelper",
+        "Name": "StackExchange.Profiling.MiniProfilerScriptTagHelper",
+        "AssemblyName": "MiniProfiler.AspNetCore.Mvc",
+        "Documentation": "\n            <summary>\n            Tag helper to render MiniProfiler in ASP.NET Core views, e.g. &lt;mini-profiler position=\"Right\" /&gt;\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "mini-profiler",
+            "TagStructure": 2
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "view-context",
+            "TypeName": "Microsoft.AspNetCore.Mvc.Rendering.ViewContext",
+            "Documentation": "\n            <summary>\n            The view context of this tag helper, for accessing HttpContext on render.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ViewContext"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "position",
+            "TypeName": "StackExchange.Profiling.RenderPosition?",
+            "Documentation": "\n            <summary>\n            The UI position to render the profiler in (defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.PopupRenderPosition\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Position"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "show-trivial",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Whether to show trivial timings column initially or not (defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.PopupShowTrivial\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ShowTrivial"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "show-time-with-children",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Whether to show time with children column initially or not (defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.PopupShowTimeWithChildren\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ShowTimeWithChildren"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "max-traces",
+            "TypeName": "System.Int32?",
+            "Documentation": "\n            <summary>\n            The maximum number of profilers to show (before the oldest is removed - defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.PopupMaxTracesToShow\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "MaxTraces"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "show-controls",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Whether to show the controls (defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.ShowControls\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ShowControls"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "start-hidden",
+            "TypeName": "System.Boolean?",
+            "Documentation": "\n            <summary>\n            Whether to start hidden (defaults to <see cref=\"P:StackExchange.Profiling.Internal.MiniProfilerBaseOptions.PopupStartHidden\" />).\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "StartHidden"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StackExchange.Profiling.MiniProfilerScriptTagHelper"
+        }
+      },
+      {
+        "HashCode": 809996433,
+        "Kind": "ITagHelper",
+        "Name": "StackExchange.Profiling.ProfileScriptTagHelper",
+        "AssemblyName": "MiniProfiler.AspNetCore.Mvc",
+        "Documentation": "\n            <summary>\n            Tag helper to profile script execution in ASP.NET Core views, e.g. \n            &lt;profile-script name=\"My Step\" /&gt;\n            ...script blocks...\n            &lt;/profile-script&gt;\n            Include as self closing to provide initialization only.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "profile-script",
+            "TagStructure": 1
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of this <see cref=\"T:StackExchange.Profiling.MiniProfiler\" /> step.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StackExchange.Profiling.ProfileScriptTagHelper"
+        }
+      },
+      {
+        "HashCode": -807984065,
+        "Kind": "ITagHelper",
+        "Name": "StackExchange.Profiling.ProfileTagHelper",
+        "AssemblyName": "MiniProfiler.AspNetCore.Mvc",
+        "Documentation": "\n            <summary>\n            Tag helper to profile child contents in ASP.NET Core views, e.g. \n            &lt;profile name=\"My Step\" /&gt;\n            ...child content...\n            &lt;/profile&gt;\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "profile",
+            "TagStructure": 1
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of this <see cref=\"T:StackExchange.Profiling.MiniProfiler\" /> step.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StackExchange.Profiling.ProfileTagHelper"
+        }
+      },
+      {
+        "HashCode": -1480303337,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper\">\r\n    <summary>\r\n    nop-action-confirmation tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-action-confirmation",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-button-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-button-id",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper.ButtonId\">\r\n    <summary>\r\n    Button identifier\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ButtonId"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper.Action\">\r\n    <summary>\r\n    Delete action name\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-additional-confirm",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper.ConfirmText\">\r\n    <summary>\r\n    Additional confirm text\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmText"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopActionConfirmationTagHelper"
+        }
+      },
+      {
+        "HashCode": 1738331429,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopAlertTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopAlertTagHelper\">\r\n    <summary>\r\n    nop-alert tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-alert",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-alert-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-alert-id",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopAlertTagHelper.AlertId\">\r\n    <summary>\r\n    Alert identifier\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "AlertId"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-alert-message",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopAlertTagHelper.Message\">\r\n    <summary>\r\n    Additional confirm text\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopAlertTagHelper"
+        }
+      },
+      {
+        "HashCode": -503489588,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper\">\r\n    <summary>\r\n    nop-delete-confirmation tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-delete-confirmation",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-model-id"
+              },
+              {
+                "Name": "asp-button-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-model-id",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper.ModelId\">\r\n    <summary>\r\n    Model identifier\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ModelId"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-button-id",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper.ButtonId\">\r\n    <summary>\r\n    Button identifier\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ButtonId"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper.Action\">\r\n    <summary>\r\n    Delete action name\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopDeleteConfirmationTagHelper"
+        }
+      },
+      {
+        "HashCode": -1147422826,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper\">\r\n    <summary>\r\n    nop-editor tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-editor",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-disabled",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.IsDisabled\">\r\n    <summary>\r\n    Indicates whether the field is disabled\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-required",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.IsRequired\">\r\n    <summary>\r\n    Indicates whether the field is required\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsRequired"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "placeholder",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.Placeholder\">\r\n    <summary>\r\n    Placeholder for the field\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Placeholder"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-render-form-control-class",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.RenderFormControlClass\">\r\n    <summary>\r\n    Indicates whether the \"form-control\" class shold be added to the input\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "RenderFormControlClass"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-template",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.Template\">\r\n    <summary>\r\n    Editor template for the field\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Template"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-postfix",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.Postfix\">\r\n    <summary>\r\n    Postfix\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Postfix"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-value",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper.Value\">\r\n    <summary>\r\n    The value of the element\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopEditorTagHelper"
+        }
+      },
+      {
+        "HashCode": -1457455033,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopLabelTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopLabelTagHelper\">\r\n    <summary>\r\n    nop-label tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-label",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopLabelTagHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-display-hint",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopLabelTagHelper.DisplayHint\">\r\n    <summary>\r\n    Indicates whether the hint should be displayed\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "DisplayHint"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopLabelTagHelper"
+        }
+      },
+      {
+        "HashCode": -1597522006,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopNestedSettingTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopNestedSettingTagHelper\">\r\n    <summary>\r\n    nop-nested-setting tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-nested-setting",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopNestedSettingTagHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopNestedSettingTagHelper"
+        }
+      },
+      {
+        "HashCode": -1330436922,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper\">\r\n    <summary>\r\n    nop-override-store-checkbox tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-override-store-checkbox",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-input",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper.Input\">\r\n    <summary>\r\n    The input #1\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Input"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-input2",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper.Input2\">\r\n    <summary>\r\n    The input #2\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Input2"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-store-scope",
+            "TypeName": "System.Int32",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper.StoreScope\">\r\n     <summary>\r\n    The store scope\r\n     </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "StoreScope"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-parent-container",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper.ParentContainer\">\r\n    <summary>\r\n    Parent container\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ParentContainer"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopOverrideStoreCheckboxHelper"
+        }
+      },
+      {
+        "HashCode": -80631469,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopPanelsTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopPanelsTagHelper\">\r\n    <summary>\r\n    nop-panel tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-panels",
+            "Attributes": [
+              {
+                "Name": "id"
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopPanelsTagHelper"
+        }
+      },
+      {
+        "HashCode": -1118158053,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper\">\r\n    <summary>\r\n    \"nop-panel tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-panel",
+            "Attributes": [
+              {
+                "Name": "asp-name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-title",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.Title\">\r\n    <summary>\r\n    Title of the panel\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.Name\">\r\n    <summary>\r\n    Name of the panel\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-hide-block-attribute-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.HideBlockAttributeName\">\r\n    <summary>\r\n    Name of the hide attribute of the panel\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "HideBlockAttributeName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-hide",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.IsHide\">\r\n    <summary>\r\n    Indicates whether a block is hidden or not\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsHide"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-advanced",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.IsAdvanced\">\r\n    <summary>\r\n    Indicates whether a panel is advanced or not\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsAdvanced"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-icon",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper.PanelIconIsAdvanced\">\r\n    <summary>\r\n    Panel icon\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "PanelIconIsAdvanced"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopPanelTagHelper"
+        }
+      },
+      {
+        "HashCode": -1279047857,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper\">\r\n    <summary>\r\n    nop-select tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-select",
+            "TagStructure": 2
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper.Name\">\r\n    <summary>\r\n    Name for a dropdown list\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-items",
+            "TypeName": "System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper.Items\">\r\n    <summary>\r\n    Items for a dropdown list\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Items"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-required",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper.IsRequired\">\r\n    <summary>\r\n    Indicates whether the field is required\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsRequired"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-multiple",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper.IsMultiple\">\r\n    <summary>\r\n    Indicates whether the input is multiple\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsMultiple"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopSelectTagHelper"
+        }
+      },
+      {
+        "HashCode": 874432859,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopTabsTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopTabsTagHelper\">\r\n    <summary>\r\n    nop-tabs tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-tabs",
+            "Attributes": [
+              {
+                "Name": "id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-tab-name-to-select",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTabsTagHelper.TabNameToSelect\">\r\n    <summary>\r\n    Name of the tab which should be selected\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "TabNameToSelect"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-render-selected-tab-input",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTabsTagHelper.RenderSelectedTabInput\">\r\n    <summary>\r\n    Indicates whether the tab is default\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "RenderSelectedTabInput"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopTabsTagHelper"
+        }
+      },
+      {
+        "HashCode": 572323135,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper\">\r\n    <summary>\r\n    \"nop-tab tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-tab",
+            "ParentTag": "nop-tabs",
+            "Attributes": [
+              {
+                "Name": "asp-name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-title",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper.Title\">\r\n    <summary>\r\n    Title of the tab\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-default",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper.IsDefault\">\r\n    <summary>\r\n    Indicates whether the tab is default\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsDefault"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper.Name\">\r\n    <summary>\r\n    Name of the tab\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopTabTagHelper"
+        }
+      },
+      {
+        "HashCode": -1760496013,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Admin.NopTextAreaTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Admin.NopTextAreaTagHelper\">\r\n    <summary>\r\n    nop-textarea tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-textarea",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-disabled",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTextAreaTagHelper.IsDisabled\">\r\n    <summary>\r\n    Indicates whether the input is disabled\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-required",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Admin.NopTextAreaTagHelper.IsRequired\">\r\n    <summary>\r\n    Indicates whether the field is required\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsRequired"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Admin.NopTextAreaTagHelper"
+        }
+      },
+      {
+        "HashCode": 505402869,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.InputTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.InputTagHelper\">\r\n    <summary>\r\n    input tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "input",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-disabled",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Public.InputTagHelper.IsDisabled\">\r\n    <summary>\r\n    Indicates whether the input is disabled\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-format",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The format string (see https://msdn.microsoft.com/en-us/library/txafckwd.aspx) used to format the\n            <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.For\" /> result. Sets the generated \"value\" attribute to that formatted string.\n            </summary>\n            <remarks>\n            Not used if the provided (see <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" />) or calculated \"type\" attribute value is\n            <c>checkbox</c>, <c>password</c>, or <c>radio</c>. That is, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> is used when calling\n            <see cref=\"M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Format"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "type",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The type of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine the <see cref=\"T:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator\" />\n            helper to call and the default <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> value. A default <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.Format\" /> is not calculated\n            if the provided (see <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" />) or calculated \"type\" attribute value is <c>checkbox</c>,\n            <c>hidden</c>, <c>password</c>, or <c>radio</c>.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "InputTypeName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "value",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The value of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine the generated \"checked\" attribute\n            if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper.InputTypeName\" /> is \"radio\". Must not be <c>null</c> in that case.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.InputTagHelper"
+        }
+      },
+      {
+        "HashCode": -1829265174,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.LabelTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.LabelTagHelper\">\r\n    <summary>\r\n    label tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "label",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-postfix",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Public.LabelTagHelper.Postfix\">\r\n    <summary>\r\n    Indicates whether the input is disabled\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Postfix"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.LabelTagHelper"
+        }
+      },
+      {
+        "HashCode": -1574333381,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.NopBBCodeEditorTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.NopBBCodeEditorTagHelper\">\r\n    <summary>\r\n    nop-bb-code-editor tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-bb-code-editor",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Public.NopBBCodeEditorTagHelper.For\">\r\n    <summary>\r\n    An expression to be evaluated against the current model\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.NopBBCodeEditorTagHelper"
+        }
+      },
+      {
+        "HashCode": -1147671824,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.NopGenerateCaptchaTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.NopGenerateCaptchaTagHelper\">\r\n    <summary>\r\n    nop-captcha tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-captcha",
+            "TagStructure": 2
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.NopGenerateCaptchaTagHelper"
+        }
+      },
+      {
+        "HashCode": 190295804,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.ScriptTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.ScriptTagHelper\">\r\n    <summary>\r\n    script tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-location"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-location",
+            "TypeName": "Nop.Web.Framework.UI.ResourceLocation",
+            "IsEnum": true,
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Public.ScriptTagHelper.Location\">\r\n    <summary>\r\n    Indicates where the script should be rendered\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Location"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.ScriptTagHelper"
+        }
+      },
+      {
+        "HashCode": -775491344,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Public.TextAreaTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Public.TextAreaTagHelper\">\r\n    <summary>\r\n    textarea tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "textarea",
+            "Attributes": [
+              {
+                "Name": "asp-for"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-disabled",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Public.TextAreaTagHelper.IsDisabled\">\r\n    <summary>\r\n    Indicates whether the input is disabled\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-for",
+            "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
+            "Documentation": "\n            <summary>\n            An expression to be evaluated against the current model.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "For"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The name of the &lt;input&gt; element.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases. Also used to determine whether <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper.For\" /> is\n            valid with an empty <see cref=\"P:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression.Name\" />.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Name"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Public.TextAreaTagHelper"
+        }
+      },
+      {
+        "HashCode": 1421051592,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Shared.NopAntiForgeryTokenTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Shared.NopAntiForgeryTokenTagHelper\">\r\n    <summary>\r\n    nop-antiforgery-token tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-antiforgery-token",
+            "TagStructure": 2
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Shared.NopAntiForgeryTokenTagHelper"
+        }
+      },
+      {
+        "HashCode": -1666140897,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper\">\r\n    <summary>\r\n    nop-date-picker tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-date-picker",
+            "TagStructure": 2,
+            "Attributes": [
+              {
+                "Name": "asp-day-name"
+              },
+              {
+                "Name": "asp-month-name"
+              },
+              {
+                "Name": "asp-year-name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-day-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.DayName\">\r\n    <summary>\r\n    Day name\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "DayName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-month-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.MonthName\">\r\n    <summary>\r\n    Month name\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "MonthName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-year-name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.YearName\">\r\n    <summary>\r\n    Year name\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "YearName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-begin-year",
+            "TypeName": "System.Int32?",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.BeginYear\">\r\n    <summary>\r\n    Begin year\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "BeginYear"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-end-year",
+            "TypeName": "System.Int32?",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.EndYear\">\r\n    <summary>\r\n    End year\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "EndYear"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-selected-day",
+            "TypeName": "System.Int32?",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.SelectedDay\">\r\n    <summary>\r\n    Selected day\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-selected-month",
+            "TypeName": "System.Int32?",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.SelectedMonth\">\r\n    <summary>\r\n    Selected month\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "SelectedMonth"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-selected-year",
+            "TypeName": "System.Int32?",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.SelectedYear\">\r\n    <summary>\r\n    Selected year\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "SelectedYear"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-wrap-tags",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper.WrapTags\">\r\n    <summary>\r\n    Wrap tags\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "WrapTags"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Shared.NopDatePickerTagHelper"
+        }
+      },
+      {
+        "HashCode": 1156280503,
+        "Kind": "ITagHelper",
+        "Name": "Nop.Web.Framework.TagHelpers.Shared.NopRequiredTagHelper",
+        "AssemblyName": "Nop.Web.Framework",
+        "Documentation": "<member name=\"T:Nop.Web.Framework.TagHelpers.Shared.NopRequiredTagHelper\">\r\n    <summary>\r\n    nop-required tag helper\r\n    </summary>\r\n</member>\r\n",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nop-required",
+            "TagStructure": 2
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Nop.Web.Framework.TagHelpers.Shared.NopRequiredTagHelper"
+        }
+      },
+      {
+        "HashCode": -2085196660,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AclDisabledWarningViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:acl-disabled-warning"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AclDisabledWarningViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AclDisabledWarning"
+        }
+      },
+      {
+        "HashCode": -1125840373,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminLanguageSelectorViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-language-selector"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminLanguageSelectorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminLanguageSelector"
+        }
+      },
+      {
+        "HashCode": -1837486893,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminWidgetViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-widget",
+            "Attributes": [
+              {
+                "Name": "widget-zone"
+              },
+              {
+                "Name": "additional-data"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "widget-zone",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "widgetZone"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "additional-data",
+            "TypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "additionalData"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminWidgetViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminWidget"
+        }
+      },
+      {
+        "HashCode": -1644096773,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CommonStatisticsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:common-statistics"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CommonStatisticsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CommonStatistics"
+        }
+      },
+      {
+        "HashCode": -102401933,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MultistoreDisabledWarningViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:multistore-disabled-warning"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MultistoreDisabledWarningViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MultistoreDisabledWarning"
+        }
+      },
+      {
+        "HashCode": -154704315,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NopCommerceNewsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:nop-commerce-news"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NopCommerceNewsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NopCommerceNews"
+        }
+      },
+      {
+        "HashCode": 1842412121,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SettingModeViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:setting-mode",
+            "Attributes": [
+              {
+                "Name": "mode-name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "mode-name",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "modeName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SettingModeViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "SettingMode"
+        }
+      },
+      {
+        "HashCode": -2067284670,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__StoreScopeConfigurationViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:store-scope-configuration"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__StoreScopeConfigurationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "StoreScopeConfiguration"
+        }
+      },
+      {
+        "HashCode": 286930474,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminHeaderLinksViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-header-links"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminHeaderLinksViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminHeaderLinks"
+        }
+      },
+      {
+        "HashCode": -2005568294,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__BlogMonthsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:blog-months",
+            "Attributes": [
+              {
+                "Name": "current-category-id"
+              },
+              {
+                "Name": "current-product-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentCategoryId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentProductId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__BlogMonthsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "BlogMonths"
+        }
+      },
+      {
+        "HashCode": -1465362616,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__BlogRssHeaderLinkViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:blog-rss-header-link",
+            "Attributes": [
+              {
+                "Name": "current-category-id"
+              },
+              {
+                "Name": "current-product-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentCategoryId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentProductId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__BlogRssHeaderLinkViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "BlogRssHeaderLink"
+        }
+      },
+      {
+        "HashCode": -1566994334,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__BlogTagsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:blog-tags",
+            "Attributes": [
+              {
+                "Name": "current-category-id"
+              },
+              {
+                "Name": "current-product-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentCategoryId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentProductId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__BlogTagsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "BlogTags"
+        }
+      },
+      {
+        "HashCode": 1641403376,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoryNavigationViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:category-navigation",
+            "Attributes": [
+              {
+                "Name": "current-category-id"
+              },
+              {
+                "Name": "current-product-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentCategoryId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentProductId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoryNavigationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoryNavigation"
+        }
+      },
+      {
+        "HashCode": 1061711001,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CheckoutProgressViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:checkout-progress",
+            "Attributes": [
+              {
+                "Name": "step"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "step",
+            "TypeName": "Nop.Web.Models.Checkout.CheckoutProgressStep",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "step"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CheckoutProgressViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CheckoutProgress"
+        }
+      },
+      {
+        "HashCode": 697921460,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CrossSellProductsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:cross-sell-products",
+            "Attributes": [
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CrossSellProductsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CrossSellProducts"
+        }
+      },
+      {
+        "HashCode": -1039076038,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CurrencySelectorViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:currency-selector"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CurrencySelectorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CurrencySelector"
+        }
+      },
+      {
+        "HashCode": -1004696236,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CustomerNavigationViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:customer-navigation",
+            "Attributes": [
+              {
+                "Name": "selected-tab-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "selected-tab-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "selectedTabId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CustomerNavigationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CustomerNavigation"
+        }
+      },
+      {
+        "HashCode": -1629115417,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__EstimateShippingViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:estimate-shipping",
+            "Attributes": [
+              {
+                "Name": "prepare-and-display-order-review-data"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "prepare-and-display-order-review-data",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "prepareAndDisplayOrderReviewData"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__EstimateShippingViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "EstimateShipping"
+        }
+      },
+      {
+        "HashCode": 450142283,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__EuCookieLawViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:eu-cookie-law"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__EuCookieLawViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "EuCookieLaw"
+        }
+      },
+      {
+        "HashCode": -1248839183,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ExternalMethodsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:external-methods"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ExternalMethodsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ExternalMethods"
+        }
+      },
+      {
+        "HashCode": -2126922001,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__FaviconViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:favicon"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__FaviconViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Favicon"
+        }
+      },
+      {
+        "HashCode": 1143054530,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__FlyoutShoppingCartViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:flyout-shopping-cart"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__FlyoutShoppingCartViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "FlyoutShoppingCart"
+        }
+      },
+      {
+        "HashCode": 623030419,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__FooterViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:footer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__FooterViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Footer"
+        }
+      },
+      {
+        "HashCode": 1303948043,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ForumActiveDiscussionsSmallViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:forum-active-discussions-small"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ForumActiveDiscussionsSmallViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ForumActiveDiscussionsSmall"
+        }
+      },
+      {
+        "HashCode": 723390759,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ForumBreadcrumbViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:forum-breadcrumb",
+            "Attributes": [
+              {
+                "Name": "forum-group-id"
+              },
+              {
+                "Name": "forum-id"
+              },
+              {
+                "Name": "forum-topic-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "forum-group-id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "forumGroupId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "forum-id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "forumId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "forum-topic-id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "forumTopicId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ForumBreadcrumbViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ForumBreadcrumb"
+        }
+      },
+      {
+        "HashCode": 1829697165,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ForumLastPostViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:forum-last-post",
+            "Attributes": [
+              {
+                "Name": "forum-post-id"
+              },
+              {
+                "Name": "show-topic"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "forum-post-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "forumPostId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "show-topic",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "showTopic"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ForumLastPostViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ForumLastPost"
+        }
+      },
+      {
+        "HashCode": 1206069899,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HeaderLinksViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:header-links"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HeaderLinksViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HeaderLinks"
+        }
+      },
+      {
+        "HashCode": 144780519,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HomepageBestSellersViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:homepage-best-sellers",
+            "Attributes": [
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HomepageBestSellersViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HomepageBestSellers"
+        }
+      },
+      {
+        "HashCode": -1477485041,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HomepageCategoriesViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:homepage-categories"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HomepageCategoriesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HomepageCategories"
+        }
+      },
+      {
+        "HashCode": -2030701422,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HomepageNewsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:homepage-news"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HomepageNewsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HomepageNews"
+        }
+      },
+      {
+        "HashCode": -1960598455,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HomepagePollsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:homepage-polls"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HomepagePollsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HomepagePolls"
+        }
+      },
+      {
+        "HashCode": 1324912674,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HomepageProductsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:homepage-products",
+            "Attributes": [
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HomepageProductsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "HomepageProducts"
+        }
+      },
+      {
+        "HashCode": 1875259839,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__LanguageSelectorViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:language-selector"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__LanguageSelectorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "LanguageSelector"
+        }
+      },
+      {
+        "HashCode": 1942458257,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__LogoViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:logo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__LogoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Logo"
+        }
+      },
+      {
+        "HashCode": 690095523,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ManufacturerNavigationViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:manufacturer-navigation",
+            "Attributes": [
+              {
+                "Name": "current-manufacturer-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-manufacturer-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentManufacturerId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ManufacturerNavigationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ManufacturerNavigation"
+        }
+      },
+      {
+        "HashCode": 1324403048,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NewsletterBoxViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:newsletter-box"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NewsletterBoxViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NewsletterBox"
+        }
+      },
+      {
+        "HashCode": -2129105337,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NewsRssHeaderLinkViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:news-rss-header-link",
+            "Attributes": [
+              {
+                "Name": "current-category-id"
+              },
+              {
+                "Name": "current-product-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentCategoryId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "current-product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "currentProductId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NewsRssHeaderLinkViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NewsRssHeaderLink"
+        }
+      },
+      {
+        "HashCode": -1115973904,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__OrderSummaryViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:order-summary",
+            "Attributes": [
+              {
+                "Name": "prepare-and-display-order-review-data"
+              },
+              {
+                "Name": "overridden-model"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "prepare-and-display-order-review-data",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "prepareAndDisplayOrderReviewData"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "overridden-model",
+            "TypeName": "Nop.Web.Models.ShoppingCart.ShoppingCartModel",
+            "Metadata": {
+              "Common.PropertyName": "overriddenModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__OrderSummaryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "OrderSummary"
+        }
+      },
+      {
+        "HashCode": -1094422906,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__OrderTotalsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:order-totals",
+            "Attributes": [
+              {
+                "Name": "is-editable"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "is-editable",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "isEditable"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__OrderTotalsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "OrderTotals"
+        }
+      },
+      {
+        "HashCode": 1003956491,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__PollBlockViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:poll-block",
+            "Attributes": [
+              {
+                "Name": "system-keyword"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "system-keyword",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "systemKeyword"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__PollBlockViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "PollBlock"
+        }
+      },
+      {
+        "HashCode": -758163661,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__PopularProductTagsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:popular-product-tags"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__PopularProductTagsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "PopularProductTags"
+        }
+      },
+      {
+        "HashCode": -607934066,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__PrivateMessagesInboxViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:private-messages-inbox",
+            "Attributes": [
+              {
+                "Name": "page-number"
+              },
+              {
+                "Name": "tab"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "page-number",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "pageNumber"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "tab",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tab"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__PrivateMessagesInboxViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "PrivateMessagesInbox"
+        }
+      },
+      {
+        "HashCode": -1273548837,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__PrivateMessagesSentItemsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:private-messages-sent-items",
+            "Attributes": [
+              {
+                "Name": "page-number"
+              },
+              {
+                "Name": "tab"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "page-number",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "pageNumber"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "tab",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tab"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__PrivateMessagesSentItemsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "PrivateMessagesSentItems"
+        }
+      },
+      {
+        "HashCode": 1022933557,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProductsAlsoPurchasedViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:products-also-purchased",
+            "Attributes": [
+              {
+                "Name": "product-id"
+              },
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "productId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProductsAlsoPurchasedViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProductsAlsoPurchased"
+        }
+      },
+      {
+        "HashCode": -316798172,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProfileInfoViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:profile-info",
+            "Attributes": [
+              {
+                "Name": "customer-profile-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "customer-profile-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "customerProfileId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProfileInfoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProfileInfo"
+        }
+      },
+      {
+        "HashCode": -1894273026,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProfilePostsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:profile-posts",
+            "Attributes": [
+              {
+                "Name": "customer-profile-id"
+              },
+              {
+                "Name": "page-number"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "customer-profile-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "customerProfileId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "page-number",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "pageNumber"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProfilePostsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProfilePosts"
+        }
+      },
+      {
+        "HashCode": -1526511466,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__RecentlyViewedProductsBlockViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:recently-viewed-products-block",
+            "Attributes": [
+              {
+                "Name": "product-thumb-picture-size"
+              },
+              {
+                "Name": "prepare-price-model"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "prepare-price-model",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "preparePriceModel"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__RecentlyViewedProductsBlockViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "RecentlyViewedProductsBlock"
+        }
+      },
+      {
+        "HashCode": 181758666,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__RelatedProductsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:related-products",
+            "Attributes": [
+              {
+                "Name": "product-id"
+              },
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "productId"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__RelatedProductsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "RelatedProducts"
+        }
+      },
+      {
+        "HashCode": -1433560830,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SearchBoxViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:search-box"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SearchBoxViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "SearchBox"
+        }
+      },
+      {
+        "HashCode": -996719312,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SelectedCheckoutAttributesViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:selected-checkout-attributes"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SelectedCheckoutAttributesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "SelectedCheckoutAttributes"
+        }
+      },
+      {
+        "HashCode": 1613494953,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SocialButtonsViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:social-buttons"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SocialButtonsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "SocialButtons"
+        }
+      },
+      {
+        "HashCode": -831295159,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__StoreThemeSelectorViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:store-theme-selector"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__StoreThemeSelectorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "StoreThemeSelector"
+        }
+      },
+      {
+        "HashCode": 1640915412,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__TaxTypeSelectorViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:tax-type-selector"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__TaxTypeSelectorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "TaxTypeSelector"
+        }
+      },
+      {
+        "HashCode": 267548755,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__TopicBlockViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:topic-block",
+            "Attributes": [
+              {
+                "Name": "system-name"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "system-name",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "systemName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__TopicBlockViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "TopicBlock"
+        }
+      },
+      {
+        "HashCode": 1597989932,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__TopMenuViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:top-menu",
+            "Attributes": [
+              {
+                "Name": "product-thumb-picture-size"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "product-thumb-picture-size",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "productThumbPictureSize"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__TopMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "TopMenu"
+        }
+      },
+      {
+        "HashCode": -1027054243,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__VendorNavigationViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:vendor-navigation"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__VendorNavigationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "VendorNavigation"
+        }
+      },
+      {
+        "HashCode": 97739158,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__WidgetViewComponentTagHelper",
+        "AssemblyName": "Nop.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:widget",
+            "Attributes": [
+              {
+                "Name": "widget-zone"
+              },
+              {
+                "Name": "additional-data"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "widget-zone",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "widgetZone"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "additional-data",
+            "TypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "additionalData"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__WidgetViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Widget"
+        }
+      }
+    ],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

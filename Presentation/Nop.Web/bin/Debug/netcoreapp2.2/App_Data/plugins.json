@@ -1,7 +1,10 @@
 ﻿{
   "InstalledPluginNames": [
     "SevenSpikes.Core",
-    "SevenSpikes.Theme.Minimal"
+    "SevenSpikes.Theme.Minimal",
+    "SevenSpikes.Theme.Lavella",
+    "SevenSpikes.Theme.ShopAll",
+    "SevenSpikes.Theme.Smart"
   ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],
