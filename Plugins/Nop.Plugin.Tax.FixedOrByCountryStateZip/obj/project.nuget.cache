@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ohD3Xa7gVl04CXaY/lSogqa27HJHS0IHm4DZN9GslKEQcySbuFf//301d6ioRoj1B/4fxrENCUo74fzxBb3aPQ==",
+  "dgSpecHash": "mxue4x+88C9swLWNhanWuDe3QI/cHtWMfmTTuyK0cyOuXCRtmUV4d550GWsmQ/Z/Egrio1uqlbgygEQFI0QVag==",
   "success": true,
   "projectFilePath": "C:\\Repository\\meatWebSite\\Plugins\\Nop.Plugin.Tax.FixedOrByCountryStateZip\\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj",
   "expectedPackageFiles": [

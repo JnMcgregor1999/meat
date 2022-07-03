@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9kT+Hk+imjWsB/h1yXz2jf0h4mV4dahIEVX8l+EywrCiZd5hYiydzhfOz/9jk3CQFJM8Swt2CBJinruTdCDApQ==",
+  "dgSpecHash": "DC5dj834YcYylogvm2D4q1H3mKf19JTvTShQ1n844hK/BNoR1cY/chZVpUv+Q4or8WWey5XqJjE7HTn23o/jdw==",
   "success": true,
   "projectFilePath": "C:\\Repository\\meatWebSite\\Plugins\\Nop.Plugin.Payments.PayPalStandard\\Nop.Plugin.Payments.PayPalStandard.csproj",
   "expectedPackageFiles": [
