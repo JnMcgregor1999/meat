@@ -1,0 +1,85 @@
+﻿@model MinimalThemeSettingsModel
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group theme-color">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Preset_OverrideForStore" asp-input="Preset" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Preset" />
+                </div>
+                <div class="col-md-9 adminData">
+                    @Html.NopRadioButtonsForPresets(Model.Presets, Model.Preset)
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="IsCategoryPageOneColumn_OverrideForStore" asp-input="IsCategoryPageOneColumn" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="IsCategoryPageOneColumn" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="IsCategoryPageOneColumn" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="IsMenuMobile_OverrideForStore" asp-input="IsMenuMobile" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="IsMenuMobile" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="IsMenuMobile" />
+                </div>
+            </div>
+            <nop-nested-setting asp-for="IsMenuMobile" id="IsMenuMobilePanel">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="IsHeaderInsideHomePageMainSlider_OverrideForStore" asp-input="IsHeaderInsideHomePageMainSlider" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="IsHeaderInsideHomePageMainSlider" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="IsHeaderInsideHomePageMainSlider" />
+                    </div>
+                </div>
+            </nop-nested-setting>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="ItemBoxHoverEffect_OverrideForStore" asp-input="ItemBoxHoverEffect" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="ItemBoxHoverEffect" />
+                </div>
+                <div class="col-md-9">
+                    <nop-select asp-for="ItemBoxHoverEffect" asp-items="Model.SupportedItemBoxHoverEffects" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="ProductImageProportion_OverrideForStore" asp-input="ProductImageProportion" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="ProductImageProportion" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="ProductImageProportion" asp-postfix="@T("SevenSpikes.Plugins.Admin.InputStyles.Postfix.Percentage").Text"/>
+                    <span asp-validation-for="ProductImageProportion"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="CategoryImageProportion_OverrideForStore" asp-input="CategoryImageProportion" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="CategoryImageProportion" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="CategoryImageProportion" asp-postfix="@T("SevenSpikes.Plugins.Admin.InputStyles.Postfix.Percentage").Text"/>
+                    <span asp-validation-for="CategoryImageProportion"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    (function ($, ssAdminCore) {
+
+        $(document).ready(function () {
+
+            ssAdminCore.registerToggleEvents("#@Html.IdFor(model => model.IsMenuMobile)", "#IsMenuMobilePanel");
+        });
+    })(jQuery, sevenSpikesAdminCore);
+</script>

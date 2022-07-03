@@ -1,0 +1,145 @@
+﻿@model FooterModel
+@using Nop.Core
+@using Nop.Core.Domain.Tax
+@using Nop.Services.Media
+@using Nop.Services.Configuration
+
+@inject IStoreContext storeContext
+@inject IWorkContext workContext
+@inject ISettingService settingService
+@inject IPictureService pictureService
+
+@{
+    var storeId = storeContext.CurrentStore.Id;
+    var removeCopyright = settingService.GetSettingByKey("minimalthemesettings.removecopyright", false, storeId, true);
+    var removeDesignedBy = settingService.GetSettingByKey("minimalthemesettings.removedesignedby", false, storeId, true);
+    bool isNewsletterPopupEnabled = settingService.GetSettingByKey("MinimalThemeSettings.EnableNewsletterPopup", false, storeId, true);
+}
+
+<div class="footer">
+    <div class="footer-middle">
+        <div class="footer-middle-block customer-services">
+            <h3 class="title">
+                <span>@T("SevenSpikes.Themes.Minimal.Common.CustomerAssistance")</span>
+            </h3>
+            <ul class="footer-menu">
+                @if (Model.DisplayContactUsFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
+                }
+                @if (Model.SitemapEnabled && Model.DisplaySitemapFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>
+                }
+                @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn1).ToList())
+                {
+                    <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
+                }
+                @if (Model.DisplayProductSearchFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
+                }
+            </ul>
+        </div>
+        <div class="footer-middle-block newsletter-wrapper">
+            @await Component.InvokeAsync("NewsletterBox", new { newsletterId = 2 })
+        </div>
+
+        <div class="footer-middle-block my-account">
+            <h3 class="title">
+                <span>@T("Footer.MyAccount")</span>
+            </h3>
+            <ul class="footer-menu">
+                @if (Model.DisplayCustomerInfoFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("CustomerInfo")">@T("Account.MyAccount")</a></li>
+                }
+                @if (Model.DisplayCustomerOrdersFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("CustomerOrders")">@T("Account.CustomerOrders")</a></li>
+                }
+                @if (Model.DisplayCustomerAddressesFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("CustomerAddresses")">@T("Account.CustomerAddresses")</a></li>
+                }
+                @if (Model.ShoppingCartEnabled && Model.DisplayShoppingCartFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("ShoppingCart")">@T("ShoppingCart")</a></li>
+                }
+                @if (Model.WishlistEnabled && Model.DisplayWishlistFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("Wishlist")">@T("Wishlist")</a></li>
+                }
+                @if (Model.AllowCustomersToApplyForVendorAccount && Model.DisplayApplyVendorAccountFooterItem)
+                {
+                    <li><a href="@Url.RouteUrl("ApplyVendorAccount")">@T("Vendors.ApplyAccount")</a></li>
+                }
+                @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn2).ToList())
+                {
+                    <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-lower">
+        @if (!removeCopyright)
+        {
+            <div class="footer-powered-by">
+                Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>
+                @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                    Please find more info at http://www.nopcommerce.com/copyrightremoval.aspx*@
+            </div>
+        }
+        @if (!removeDesignedBy)
+        {
+            <div class="footer-designed-by">
+                Designed by <a href="http://www.nop-templates.com/" target="_blank">Nop-Templates.com</a>
+            </div>
+        }
+        <div class="footer-disclaimer">
+            @T("Content.CopyrightNotice", DateTime.Now.Year, Model.StoreName)
+        </div>
+        @if (Model.DisplayTaxShippingInfoFooter)
+        {
+                var inclTax = workContext.TaxDisplayType == TaxDisplayType.IncludingTax;
+            <div class="footer-tax-shipping">
+                @T(inclTax ? "Footer.TaxShipping.InclTax" : "Footer.TaxShipping.ExclTax", Url.RouteUrl("Topic", new { SeName = Html.GetTopicSeName("shippinginfo") }))
+            </div>
+        }
+
+        @await Component.InvokeAsync("StoreThemeSelector")
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.Footer })
+</div>
+
+@if (isNewsletterPopupEnabled)
+{
+    var popupBackgroundImage = string.Empty;
+
+    int imageId = settingService.GetSettingByKey("minimalthemesettings.newsletterpopupbackgroundimageid", 0, storeId, true);
+    int delay = settingService.GetSettingByKey("minimalthemesettings.newsletterpopupdelayedshow", 2000, storeId, true);
+
+    var imageEntity = pictureService.GetPictureById(imageId);
+    var imageUrl = pictureService.GetPictureUrl(imageEntity, showDefaultPicture: false);
+
+    if (!string.IsNullOrEmpty(imageUrl))
+    {
+        popupBackgroundImage = string.Format("background-image: url({0});", imageUrl);
+    }
+
+    <div class="newsletter-popup-overlay" data-showPopupDelay="@delay">
+        <div class="newsletter-popup" style="@Html.Raw(popupBackgroundImage)">
+            <h3 class="newsletter-popup-title">
+                <span>@T("SevenSpikes.Themes.Minimal.Newsletter.Popup")</span>
+            </h3>
+            <div class="newsletter-description-wrapper"><p class="newsletter-popup-description">@Html.Raw(T("SevenSpikes.Themes.Minimal.Newsletter.Popup.Description"))</p></div>
+            @await Component.InvokeAsync("NewsletterBox", new { newsletterId = 3 })
+            <div class="newspetter-popup-inputs">
+                <input class="newsletter-popup-checkbox" type="checkbox">
+                <label>@T("SevenSpikes.Themes.Minimal.Newsletter.Popup.DontShow")</label>
+            </div>
+            <a class="close-popup" href="#">Close</a>
+        </div>
+    </div>
+}

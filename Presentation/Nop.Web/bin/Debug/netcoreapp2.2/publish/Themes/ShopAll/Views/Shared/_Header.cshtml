@@ -1,0 +1,29 @@
+﻿@using Nop.Core
+@using Nop.Services.Configuration
+@using Nop.Services.Security
+
+@inject IThemeContext themeContext
+@inject IStoreContext storeContext
+@inject ISettingService settingService
+@inject IPermissionService permissionService
+
+<div class="header">
+    @await Component.InvokeAsync("Widget", new { widgetZone = "header" })
+    @await Component.InvokeAsync("Logo")
+    <div class="header-links-wrapper">
+        @await Component.InvokeAsync("HeaderLinks")
+	    @await Component.InvokeAsync("FlyoutShoppingCart")
+    </div>
+
+    <div class="header-selectors-wrapper">
+
+            @await Component.InvokeAsync("TaxTypeSelector")
+
+            @await Component.InvokeAsync("CurrencySelector")
+
+            @await Component.InvokeAsync("LanguageSelector")
+
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderSelectors })
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = "shopall_mini_shopping_cart" })
+</div>

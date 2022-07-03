@@ -1,0 +1,336 @@
+﻿.ui-dialog-titlebar span,
+.newsletter-email input[type="text"],
+.newsletter-email input[type="email"],
+.newsletter-email input[type="button"],
+.block .tags li a,
+.product-tags-all-page li a,
+.overview .add-to-cart-panel > *,
+.variant-overview .add-to-cart-panel > *,
+.product-review-item .review-title,
+.cart-collaterals .coupon-code input[type="text"],
+.cart-collaterals .coupon-code input[type="email"],
+.cart-collaterals .coupon-code input[type="tel"],
+.cart-collaterals .coupon-code input[type="submit"],
+.opc .step-title *,
+.order-details-area > div {
+    float: right;
+}
+.product-review-item .product-review-box {
+	float: left;
+}
+/*********** LEFT/RIGHT COLUMN ***********/
+
+
+
+.block,
+#lbBottom,
+.product-collateral .title,
+.ui-widget-header.ui-corner-all,
+.compare-products-page .page-title,
+.topic-block-body,
+.cart-total-left,
+.shipment-details-page .shipment-details-area > ul {
+	text-align: right;
+}
+.ui-dialog-buttonset,
+.cart-total-right {
+	text-align: left;
+}
+* {
+	direction: rtl;
+}
+body {
+	right: 0;
+	left: -17px;
+}
+.item-box .buttons {
+	right: 0;
+	left: 0;
+}
+.category-description ul,
+.manufacturer-description ul,
+.full-description ul,
+.topic-block ul,
+.topic-page ul,
+.post-body ul {
+	padding: 0 36px 0 0;
+    text-align: right;
+}
+.category-description ol,
+.manufacturer-description ol,
+.full-description ol,
+.topic-block ol,
+.topic-page ol,
+.post-body ol {
+	padding: 0 36px 0 0;
+    text-align: right;
+}
+.required {
+	margin: 0 0 0 -6px;
+}
+/*********** BAR NOTIFICATION & JQUERY POPUPS  ***********/
+
+
+
+.bar-notification {
+	right: 0;
+	left: auto;
+	padding: 12px 10px 12px 25px;
+}
+.bar-notification .content {
+	float: right;
+	margin: 0 0 0 10px;
+}
+.bar-notification .close {
+	left: 0;
+	right: auto;
+}
+.ui-dialog-titlebar button {
+	left: 0;
+	right: auto;
+}
+.ui-dialog-buttonset button {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.header-links .cart-qty {
+	background-position: right center;
+	padding: 0 5px 0 0;
+}
+.search-box form {
+	padding: 6px 6px 6px 0;
+}
+.search-box input.search-box-text {
+	float: right;
+	/*padding-left: 106px;*/
+	padding-right: 5px;
+}
+.ui-autocomplete.ui-menu.ui-widget.ui-widget-content img {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.header-selectors-wrapper select {
+	background-position: 5% center;
+}
+.language-list img {
+	left: 0;
+	right: 0;
+}
+.master-header-wrapper {
+	background-position: right top;
+}
+.footer-store-theme select {
+	right: 50%;
+	left: auto;
+	margin-right: -85px;
+	margin-left: 0;
+}
+.block .title strong {
+	background-position: 4% center;
+}
+.product-selectors .select-wrap {
+	text-align: right;
+	padding: 5px 5px 5px 15px;
+	margin: 0 5px 0 0;
+	background-position: 5px center;
+}
+.item-box .product-item {
+	left: 5px;
+	right: 5px;
+}
+.item-box .picture {
+	right: 0;
+	left: auto;
+}
+.item-box .picture a {
+	right: 0;
+	left: 0;
+}
+.item-box .picture img {
+	left: 0;
+	right: 0;
+}
+.home-page-category-grid .item-grid .item-box .sub-category > li {
+	background: url(../../Content/img/rtl-red-triangle.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.home-page-category-grid .item-grid .item-box .sub-category > li a {
+	padding: 0 10px 0 0;
+}
+.item-box .details {
+	right: 0;
+	left: auto;
+}
+.item-box .add-info {
+	right: 0;
+	left: 0;
+}
+.product-rating-box .rating div {
+	background-position: right center;
+}
+
+.button-2.add-to-compare-list-button {
+	background-position: right center;
+	padding: 5px 20px 5px 10px;
+}
+.button-2.email-a-friend-button {
+	background-position: right center;
+	padding: 5px 20px 5px 10px;
+}
+.button-2.add-to-wishlist-button {
+	background-position: right center;
+	padding: 5px 20px 5px 10px;
+}
+.overview .qty-label,
+.variant-overview .qty-label {
+	right: -25px;
+	left: auto;
+}
+.product-tags-list li {
+	/*reset zeroing*/
+	float: right;
+	padding: 0 0 0 5px;
+}
+.product-tags-list li.separator {
+	margin: 0 3px 0 5px;
+}
+.product-review-helpfulness .question {
+	margin: 0 0 0 5px;
+}
+.product-review-helpfulness .result {
+	margin: 0 10px 0 0;
+}
+.compare-products-page .button-2 {
+	padding: 5px 10px 5px 15px;
+	background-position: left center;
+}
+.compare-products-page .button-2:hover {
+	background-position: left center;
+}
+.enter-password-form input[type="password"] {
+	float: right !important;
+}
+.enter-password-form input[type="submit"] {
+	float: right !important;
+}
+.registration-page select + select,
+.account-page select + select {
+	margin: 0 10px 0 0;
+}
+.shipping-options select {
+	background-position: 3% center;
+}
+.remove-discount-button,
+.remove-gift-card-button {
+	margin: 0 5px 0 0;
+}
+.opc .step-title span {
+	margin: 0 0 0 10px;
+}
+/*********** SEARCH & SITEMAP ***********/
+
+
+
+.search-input input + label {
+	margin: 0 2px 0 0;
+}
+.advanced-search .price-range {
+	margin: 0 -30px 0 0;
+}
+.blog-page .tags li.separator,
+.blogpost-page .tags li.separator {
+	margin: 0 3px 0 5px;
+}
+.comment-info .avatar img {
+	left: 0;
+	right: 0;
+}
+/*MY ACCOUNT */
+.edit-address .custom-attributes .option-list li {
+	display: inline-block;
+	margin: 0 0 0 8px;
+}
+/****** DATEPICKER ******/
+.ui-datepicker {
+	background-color: #ffffff;
+	text-align: center;
+	width: 280px;
+}
+.ui-datepicker-title {
+	font-weight: bold;
+	line-height: 32px;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 0;
+	color: #555;
+	font-family: Arial, sans-serif;
+	background: #fff;
+	text-align: center;
+}
+.ui-datepicker-header a {
+	font-size: 0;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	width: 32px;
+	z-index: 1;
+}
+.ui-datepicker-header a.ui-datepicker-prev {
+	background: url("../img/arrow_pager.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+	left: auto;
+	right: 0;
+}
+.ui-datepicker-header a.ui-datepicker-next {
+	background: url("../img/arrow-left.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+	left: 0;
+	right: auto;
+}
+.ui-datepicker-header {
+	background-color: #333333;
+	color: #ffffff;
+	height: 32px;
+	position: relative;
+}
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td {
+	border: 1px solid #cccccc;
+	width: 14.285%;
+}
+.ui-datepicker-calendar th {
+	background-color: #eeeeee;
+}
+.ui-datepicker-calendar th span,
+.ui-datepicker-calendar td a {
+	display: block;
+	line-height: 32px;
+	height: 32px;
+}
+.ui-datepicker-calendar td a {
+	transition: all 0.2s ease-in-out 0s;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+}
+.ui-datepicker-calendar td:hover a {
+	background: #efefef !important;
+}
+/*END DATEPICKER*/
+.message-error,
+.field-validation-error,
+.username-not-available-status,
+.poll-vote-error,
+.password-error {
+	margin: 5px 5px 0 0;
+}
+/*PAGER*/
+.pager li.previous-page * {
+	background-image: url("../img/arrow_pager.png");
+}
+.pager li.next-page * {
+	background-image: url("../img/arrow-left.png");
+}
+/*PRODUCT PAGE*/
+.attribute-squares li:hover .tooltip-container {
+	margin-right: -114px;
+}

@@ -1,0 +1,210 @@
+﻿/*=====================================================
+    
+    TABLETS PORTRAIT & SMARTPHONES LANDSCAPE
+
+=====================================================*/
+
+@media all and (min-width: 481px) {
+	
+/* HEADER */
+
+.search-box input.search-box-text {
+	width: 300px !important;
+	max-width: none !important;
+}
+.ui-autocomplete {
+	width: 340px !important; /*txtfield + button*/
+}
+.eu-cookie-bar-notification {
+    width: 450px;
+    max-width: 95%;
+    margin-left: -225px;
+}
+
+/* FOOTER */
+
+.footbox .title {
+	border-bottom-style: dotted;
+}
+.contacts {
+	display: block;
+	text-align: center;
+}
+.contacts li {
+	display: inline-block;
+	width: 45%;
+}
+.contacts li span:before {
+	display: block;
+	margin: 0 auto 5px;
+}
+.newsletter-email input[type="email"] {
+	width: 300px;
+}
+.footlist {
+	max-width: 280px;
+	margin: 20px 10px;
+}
+
+/* LEFT/RIGHT COLUMN */
+
+.side-2 {
+	font-size: 0;
+	text-align: left;
+}
+.block {
+	display: inline-block;
+	width: 48%; /*two per row*/
+	max-width: none;
+	margin: 0 1%;
+	text-align: left;
+}
+.block .listbox {
+	padding: 0 5px 40px 10px;
+	text-align: left;
+}
+.block .list a,
+.block .year strong  {
+	display: block;
+}
+.block .sublist {
+	margin: -5px 0 20px 20px;
+}
+.block .view-all {
+	text-align: right;
+}
+.block-popular-tags .listbox,
+.block-poll .listbox {
+	padding-left: 5px !important;
+}
+.block .tags li,
+.product-tags-all-page li {
+	margin: 0 5px;
+}
+.poll-options li,
+.poll-results li {
+	display: block;
+}
+.poll .buttons,
+.poll-total-votes {
+	text-align: right;
+}
+
+/* CATEGORY PAGE & GRIDS */
+
+.home-page-category-grid,
+.sub-category-grid,
+.manufacturer-grid,
+.vendor-grid {
+	text-align: left;
+}
+.home-page-category-grid .item-box,
+.sub-category-grid .item-box,
+.manufacturer-grid .item-box,
+.vendor-grid .item-box {
+	max-width: none;
+}
+.product-selectors > div {
+	width: 48%;
+	margin: 0 1%;
+}
+.product-selectors span {
+	display: inline;
+}
+.product-selectors select {
+	max-width: 130px;
+}
+.item-grid:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.item-box {
+	width: 48%; /*two per row*/
+	margin: 0 1% 30px;
+    float: left;
+}
+.item-box:nth-child(2n+1) {
+	clear: both;
+}
+
+/* PASSWORD PROTECTION */
+
+.enter-password-form input[type="password"] {
+	width: 300px !important;
+}
+
+/* REGISTRATION, LOGIN, MY ACCOUNT */
+
+.registration-page .date-of-birth select,
+.account-page .date-of-birth select {
+	width: 110px;
+}
+.block-account-navigation {
+	display: block;
+	margin: 0 auto !important;
+	text-align: center !important;
+}
+
+/* SHOPPING CART & CHECKOUT */
+
+.order-progress li {
+	width: 90px;
+}
+.cart-footer .totals {
+	max-width: 75%;
+}
+.order-review-data,
+.shipment-overview {
+	display: table;
+	width: 100%;
+	margin: 0 0 30px;
+}
+.order-review-data ul,
+.shipment-overview ul {
+	display: table-cell;
+}
+.order-details-area td,
+.shipment-overview td {
+	float: none;
+	width: auto;
+}
+
+/* BLOG & NEWS */
+
+.news-list-homepage .news-items {
+	padding: 0 2%;
+	font-size: 0;
+}
+.news-list-homepage .news-items:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.news-list-homepage .news-item {
+	display: inline-block;
+	width: 46%;
+	margin: 0 2% 20px;
+	vertical-align: top;
+	font-size: 12px;
+    float: left;
+}
+.news-list-homepage .news-title {
+	height: 40px;
+	margin-bottom: 0;
+	overflow: hidden;
+	line-height: 19px;
+}
+.news-list-homepage .view-all {
+	clear: both;
+}
+
+}

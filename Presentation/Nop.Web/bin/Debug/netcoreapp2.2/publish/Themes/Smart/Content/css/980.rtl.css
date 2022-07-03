@@ -1,0 +1,227 @@
+﻿/*=====================================================
+    
+    DESKTOP
+
+=====================================================*/
+
+@media all and (min-width: 1025px) {
+
+.mini-shopping-cart .picture,
+.header-logo {
+	float: right;
+}
+.header .search-box,
+.center-2,
+.checkout-page .totals,
+.news-list-homepage .read-more {
+	float: left;
+}
+.header,
+.header-menu,
+.contacts li,
+.home-page-category-grid .title,
+.topic-password,
+.cart-footer .totals,
+.cart-collaterals .shipping label {
+	text-align: right;
+}
+.mini-shopping-cart .totals,
+.mini-shopping-cart .buttons,
+.pager ul,
+.shopping-cart-page .common-buttons,
+.checkout-attributes,
+.checkout-page .selected-checkout-attributes {
+	text-align: left;
+}
+
+.inputs label{
+	margin: 0 -180px 0 10px;
+	text-align: left;
+}
+.header-links li a{
+	padding-right: 30px;
+	padding-left: 0;
+}
+.header-links a.account,
+.header-links a.ico-register {
+	background: url('../img/links_account_small.png') right no-repeat;
+}
+.header-links a.ico-login,
+.header-links a.ico-logout {
+	background: url('../img/links_login_small.png') right no-repeat;
+}
+.header-links a.ico-inbox {
+	background: url('../img/links_inbox_small.png') right no-repeat;
+}
+.header-links a.ico-wishlist {
+	background: url('../img/links_wishlist_small.png') right no-repeat;
+}
+.header-links a.ico-inbox,
+.header-links a.ico-wishlist {
+	padding-right: 40px;
+	padding-left: 0;
+}
+.header-links li > span {
+	right: 21px;
+	left: auto;
+}
+.header-selectors-wrapper > div {
+	float: right;
+	margin: 0 10px 0 0;
+}
+.mini-shopping-cart .picture + .product {
+	margin: 0 60px 0 0;
+}
+
+.header-menu .sublist li a{
+	padding: 8px 26px 8px 10px;
+}
+.header-menu .sublist li a:before {
+    left: auto;
+    right: 10px;
+    background-image: url('../img/rtl-arrow3.png');
+}
+.header-menu .sublist li:last-child > a {
+	border-radius: 0 8px 8px 0;
+}
+.header-menu .sublist-wrap .sublist-wrap {
+	right: 100%;
+	left: auto;
+}
+
+/* FOOTER */
+
+.footbox{
+	margin: 0 40px 0 0;
+	text-align: right;
+}
+.footbox:first-child {
+	margin-right: 0 !important;
+}
+.contacts li span:before {
+	margin: 0 0 0 10px;
+}
+.footlist {
+	margin: 0 20px 0 0;
+	text-align: right;
+}
+.footlist:first-child {
+	margin-right: 0 !important;
+}
+.footer-lower .inner-wrapper {
+	padding-right: 0;
+}
+.footer-powered-by {
+	padding-left: 0;
+}
+
+/* COLUMNS & GRIDS */
+
+.side-2 {
+	float: right;
+	padding-left: 20px;
+	padding-right: 0;
+}
+.block .listbox {
+	padding: 0 8px 0 0;
+}
+.block .product-picture {
+	float: right;
+	margin: 0 0 0 10px;
+}
+.block .list a.product-picture {
+	padding-right: 0;
+}
+.home-page-category-grid .item-box {
+	margin: 0 2% 25px 0;
+}
+.home-page-category-grid .item-box:first-child,
+.home-page-category-grid .item-box:nth-child(3n+1) {
+	margin-right: 0;
+}
+.home-page-category-grid .title,
+.sub-category-grid .title,
+.manufacturer-grid .title {
+	right: 0;
+	left: auto;
+}
+.home-page .product-grid {
+	margin-left: auto;
+	margin-right: auto;
+}
+.vendor-list li {
+	margin: 0 0 10px 10px;
+}
+.cross-sells .item-box {
+	margin: 0 2% 30px 0;
+}
+.cross-sells .item-box:nth-child(4n+1) {
+	margin-right: 0;
+}
+.pager li {
+	margin: 0 10px 0 0;
+}
+
+
+/* PRODUCT PAGE */
+
+.gallery .thumbs-item {
+	margin: 0 10px 10px 0;
+}
+.gallery .thumbs-item:first-child,
+.gallery .thumbs-item:nth-child(3n+1) {
+	margin-right: 0;
+}
+.rental-attributes dt {
+	clear: right;
+}
+.block-account-navigation{
+	text-align: right !important;
+}
+.checkout-attributes li {
+	margin: 0 10px 0 0;
+}
+.shopping-cart-page .common-buttons input {
+	margin: 0 10px 0 0;
+}
+.cart-collaterals .deals > div {
+	margin: 0 0 0 10px;
+}
+.estimate-shipping .shipping-options .inputs,
+.estimate-shipping .shipping-options .buttons {
+	margin: 10px 0 10px 10px;
+	text-align: right;
+}
+.advanced-search .price-range {
+	margin-right: 48px;
+	margin-left: 0;
+}
+.news-list-homepage .news-item {
+	margin: 0 0 20px 4%;
+	text-align: right;
+}
+.news-list-homepage .news-item:nth-child(even) {
+	margin-left: 0;
+}
+.news-list-homepage .news-body:after {
+	right: 0;
+	left: auto;
+}
+
+.address-list .buttons,
+.order-list .buttons {
+	left: 20px;
+	right: auto;
+}
+
+/* REVIEW PAGE */
+
+.write-review .review-rating {
+	text-align: right;
+}
+.write-review .review-rating label {
+	margin: 0 -20px 0 10px;
+	text-align: left;
+}
+ 
+}

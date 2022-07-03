@@ -1,0 +1,53 @@
+@media all and (min-width: 1280px) {
+
+.header-upper .center,
+.header-lower .center,
+.header-menu > ul {
+	width: 1200px;
+}
+.master-column-wrapper {
+	width: 1200px;
+}
+.footbox {
+	width: 360px;
+	margin-left: 60px;
+}
+.fullscreen .footbox {
+	width: 372px;
+	margin-left: 42px;
+}
+.footlist {
+	width: 270px;
+	margin-left: 40px;
+}
+.fullscreen .footlist {
+	width: 285px;
+	margin-left: 20px;
+}
+.footer-lower .center {
+	width: 1200px;
+}
+.home-page-category-grid .item-grid {
+	width: 1200px;
+}
+.home-page .product-grid {
+	width: 1200px;
+}
+.news-list-homepage .news-items {
+	width: 1200px;
+}
+.home-page-polls {
+	width: 1200px;
+}
+.center-2 {
+	width: 880px;
+}
+.side-2 {
+	width: 290px;
+}
+.rental-attributes dt {
+	clear: none;
+	width: auto;
+}
+	
+}

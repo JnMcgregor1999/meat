@@ -1,0 +1,111 @@
+﻿@model MinimalThemeSettingsModel
+
+@{
+    Layout = AdminViewLocations.AdminLayoutViewPath;
+
+    Html.AppendCssFileParts("~/Plugins/SevenSpikes.Core/Areas/Admin/Content/Styles/adminstyles.css");
+    Html.AddCssFileParts("~/Plugins/SevenSpikes.Theme.Minimal/Areas/Admin/Content/Styles/adminStyle.css");
+
+    Html.AddScriptParts("~/Plugins/SevenSpikes.Core/Areas/Admin/Content/Scripts/custom.presets.min.js");
+    Html.AddScriptParts("~/Plugins/SevenSpikes.Theme.Minimal/Areas/Admin/Content/Scripts/admin.min.js");
+
+    Html.SetActiveMenuItemSystemName("SevenSpikes.Themes.Admin.SettingsSubmenu.Minimal");
+}
+
+<form method="post">
+    <nop-antiforgery-token />    
+
+    <script type="text/javascript">
+        (function ($) {
+            function logoOverrideChanged() {
+                if ($('#@Html.IdFor(model => model.LogoImageId_OverrideForStore)').length === 0) {
+                    return;
+                }
+
+                if ($('#@Html.IdFor(model => model.LogoImageId_OverrideForStore)').is(':checked')) {
+                    $(".upload-image-overlay").remove();
+                } else {
+                    $('#logo-image').append("<div class=\"upload-image-overlay\"></div>");
+                }
+            }
+
+            function colorPreset() {
+                if ($('#@Html.IdFor(model => model.Preset_OverrideForStore)').length == 0) {
+                    return;
+                }
+
+                if ($('#@Html.IdFor(model => model.Preset_OverrideForStore)').is(':checked') == true) {
+                    $(".theme-color .adminData .upload-image-overlay").remove();
+                } else {
+                    $('.theme-color .adminData').append("<div class=\"upload-image-overlay\"></div>");
+                }
+            }
+
+            function showNewsletterSettings() {
+                if ($('#@Html.IdFor(model => model.EnableNewsletterPopup)').is(':checked')) {
+                    $('.newsletter-settings').show();
+                } else {
+                    $('.newsletter-settings').hide();
+                }
+            }
+
+            function showHeaderPlaceWhenMobileMenuIsChecked() {
+                if ($('#@Html.IdFor(model => model.IsMenuMobile)').is(':checked')) {
+                    $('.header-place').show();
+                } else {
+                    $('.header-place').hide();
+                }
+            }
+
+            $(document).ready(function () {
+                $("#@Html.IdFor(model => model.LogoImageId_OverrideForStore)").change(logoOverrideChanged);
+                $("#@Html.IdFor(model => model.EnableNewsletterPopup)").change(showNewsletterSettings);
+                $("#@Html.IdFor(model => model.Preset_OverrideForStore)").change(colorPreset);
+                $('#@Html.IdFor(model => model.IsMenuMobile)').change(showHeaderPlaceWhenMobileMenuIsChecked);
+
+                $('.store-scope-configuration .checkbox input').change(function () {
+                    logoOverrideChanged();
+                    showNewsletterSettings();
+                    colorPreset();
+                    showHeaderPlaceWhenMobileMenuIsChecked();
+                });
+
+                logoOverrideChanged();
+                showNewsletterSettings();
+                colorPreset();
+                showHeaderPlaceWhenMobileMenuIsChecked();
+
+                bindBootstrapTabSelectEvent('minimal-settings-edit');
+
+                var customerPresetObj = new CustomPreset('.theme-color .radionButton:last label', '.theme-color .radionButton label');
+                customerPresetObj.setPresetsBackgroundColor();
+                customerPresetObj.addKendoColorPickerToTheLastRadioButton();
+            });
+        })(jQuery);
+    </script>
+
+    <div class="content-header clearfix">
+        <h1 class="pull-left">
+            @T("SevenSpikes.Themes.Minimal.Admin.Settings")
+        </h1>
+        <div class="pull-right">
+            @await Html.PartialAsync(AdminViewLocations.AdminResetDefaultSettingsViewPath, Plugin.FolderName)
+            <button type="submit" name="save" class="btn bg-blue">
+                <i class="fa fa-floppy-o"></i>
+                @T("Admin.Common.Save")
+            </button>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="form-horizontal">
+            @await Component.InvokeAsync("StoreScopeConfiguration")
+            <nop-tabs id="pavilion-settings-edit" data-logoImageId="#@Html.IdFor(model => model.LogoImageId_OverrideForStore)" data-presetfieldId="#@Html.IdFor(model => model.Preset_OverrideForStore)">
+                <nop-tab asp-name="tab-general" asp-title="@T("SevenSpikes.Themes.Minimal.Admin.TabTitle.GeneralSettings")" asp-default="true">@await Html.PartialAsync("_Settings.General", Model)</nop-tab>
+                <nop-tab asp-name="tab-additional" asp-title="@T("SevenSpikes.Themes.Minimal.Admin.TabTitle.AdditionalSettings")">@await Html.PartialAsync("_Settings.Additional", Model)</nop-tab>
+                <nop-tab asp-name="tab-newsletter" asp-title="@T("SevenSpikes.Themes.Minimal.Admin.TabTitle.NewsletterSettings")">@await Html.PartialAsync("_Settings.Newsletter", Model)</nop-tab>
+            </nop-tabs>
+        </div>
+    </div>
+</form>
+    
