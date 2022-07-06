@@ -1,0 +1,39 @@
+﻿/*=====================================================
+    
+    DESKTOP - LARGE
+
+=====================================================*/
+
+@media all and (min-width: 1281px) {
+    .product-grid .item-grid .item-box:nth-child(2n+1) {
+        clear: none;
+        margin-right: 1%;
+        margin-left: 0;
+    }
+
+    .product-grid .item-grid .item-box:nth-child(3n+1) {
+        margin-right: 0;
+        clear: both;
+    }
+
+    .product-grid.home-page-product-grid .item-grid .item-box:nth-child(3n+1),
+    .product-grid.bestsellers .item-grid .item-box:nth-child(3n+1) {
+        margin-right: 1%;
+        margin-left: auto;
+    }
+
+    .product-grid.home-page-product-grid .item-grid .item-box:nth-child(2n+1),
+    .product-grid.bestsellers .item-grid .item-box:nth-child(2n+1) {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .product-list .item-box .details {
+        right: 25%;
+        left: 0;
+    }
+    .flyout-cart {
+        left: 97px;
+        right: auto;
+    }
+}

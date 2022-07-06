@@ -1,0 +1,82 @@
+﻿@using Nop.Core
+@using Nop.Core.Infrastructure
+@using Nop.Services.Configuration
+
+@inject IStoreContext storeContext
+@inject ISettingService settingService
+
+@{
+    Layout = "_Root.Head";
+
+    var controllerName = Url.ActionContext.RouteData.Values["controller"].ToString();
+    var isHomePage = controllerName.Equals("home", StringComparison.InvariantCultureIgnoreCase);
+
+    if (isHomePage)
+    {
+        Html.AppendCssFileParts("~/Themes/Minimal/Content/css/owl.carousel.css");
+        Html.AddScriptParts(ResourceLocation.Footer, "~/Themes/Minimal/Content/scripts/owl.carousel.min.js");
+    }
+
+    var currentStore = storeContext.CurrentStore;
+    var isHeaderInsideHomePageMainSlider = settingService.GetSettingByKey("minimalthemesettings.isheaderinsidehomepagemainslider", false, currentStore.Id, true);
+    var isMenuMobile = settingService.GetSettingByKey("minimalthemesettings.ismenumobile", true, currentStore.Id, true);
+    var columnsCss = "two-col";
+    var isOneColumn = settingService.GetSettingByKey("minimalthemesettings.iscategorypageonecolumn", false, currentStore.Id, true);
+    if (isOneColumn)
+    {
+        columnsCss = "one-col";
+    }
+
+}
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BodyStartHtmlTagAfter })
+@await Html.PartialAsync("_Notifications")
+@await Html.PartialAsync("_JavaScriptDisabledWarning")
+@await Html.PartialAsync("_OldInternetExplorerWarning")
+
+<div class="master-wrapper-page @if (isHeaderInsideHomePageMainSlider){<text>header-inside-slider</text>} @columnsCss">
+    @await Component.InvokeAsync("AdminHeaderLinks")
+    @await Html.PartialAsync("_Header")
+    <script asp-location="Footer">
+        AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
+    </script>
+    @if (isMenuMobile)
+    {
+        var menuHtml = await Component.InvokeAsync("Widget", new { widgetZone = "theme_header_menu" });
+        <div class="header-menu-parent">
+            <div class="header-menu">
+                <div class="close-menu">
+                    <span>@T("SevenSpikes.Themes.Common.CloseMenu")</span>
+                </div>
+
+                @if (!String.IsNullOrEmpty(menuHtml.ToHtmlString()))
+                {
+                    @menuHtml
+                }
+                else
+                {
+                    @await Component.InvokeAsync("TopMenu")
+                }
+            </div>
+        </div>
+    }
+    <div class="overlayOffCanvas"></div>
+    @if (isHomePage)
+    {
+        @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_main_slider" })
+    }
+    <div class="master-wrapper-content">        
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentBefore })
+
+        @if (IsSectionDefined("Breadcrumb"))
+        {
+            @RenderSection("Breadcrumb")
+        }
+        <div class="master-column-wrapper">
+            @RenderBody()
+        </div>
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentAfter })
+    </div>
+    @await Component.InvokeAsync("Footer")
+</div>
+@await Component.InvokeAsync("EuCookieLaw")
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BodyEndHtmlTagBefore })

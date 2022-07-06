@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "_ColumnsOne";
+
+    //page class
+    Html.AppendPageCssClassParts("html-home-page");
+    string additionalClass = String.Empty;
+    var manufacturersCarouselHtml = await Component.InvokeAsync("Widget", new { widgetZone = "footer_manufacturers_carousel"});
+    if (String.IsNullOrEmpty(manufacturersCarouselHtml.ToHtmlString()))
+    {
+        additionalClass = "full-width";
+    }
+}
+<div class="page home-page">
+    <div class="page-body">
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
+        <div class="home-page-top-banner-wrapper">
+            <div class="slider-left">
+                @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_main_slider"})
+            </div>
+            <div class="banners-right">
+                <div>@await Component.InvokeAsync("Widget", new { widgetZone = "home_page_right_banner_1"})</div>
+                <div>@await Component.InvokeAsync("Widget", new { widgetZone = "home_page_right_banner_2"})</div>
+            </div>
+        </div>
+
+        @await Component.InvokeAsync("TopicBlock", new { systemName = "HomepageText" })
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeCategories })
+        @await Component.InvokeAsync("HomepageCategories")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeProducts })
+        @await Component.InvokeAsync("HomepageProducts")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeBestSellers })
+        @await Component.InvokeAsync("HomepageBestSellers")
+
+        <div class="home-page-bottom-banner-wrapper">
+            <div class="left-banner">
+                @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_left_banner_bottom"})
+            </div>
+            <div class="right-banner">
+                @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_right_banner_bottom"})
+            </div>
+        </div>
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeNews })
+        @await Component.InvokeAsync("HomepageNews")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforePoll })
+        @await Component.InvokeAsync("HomepagePolls")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBottom })
+    </div>
+</div>
+<div class="footer-upper @additionalClass">
+    <div class="fu-wrapper-left">
+        @manufacturersCarouselHtml
+    </div>
+    <div class="fu-wrapper">
+       @await Component.InvokeAsync("NewsletterBox", "Newsletter")
+    </div>
+</div>

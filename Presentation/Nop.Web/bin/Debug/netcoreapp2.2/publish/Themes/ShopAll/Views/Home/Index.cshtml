@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_ColumnsOne";
+
+    //page class
+    Html.AppendPageCssClassParts("html-home-page");
+
+    var homePageBannerHtml = await Component.InvokeAsync("Widget", new { widgetZone = "shopall_home_page_banner"});
+}
+<div class="page home-page">
+    <div class="page-body">
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
+        @await Component.InvokeAsync("Widget", new { widgetZone = "shopall_home_page_after_main_slider"})
+        @await Component.InvokeAsync("TopicBlock", new { systemName = "HomepageText" })
+        @if (!String.IsNullOrEmpty(homePageBannerHtml.ToHtmlString()))
+        {
+            <div class="homepage_banner">
+                @homePageBannerHtml
+            </div>
+        }
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeCategories })
+        @await Component.InvokeAsync("Widget", new { widgetZone = "shopall_catalog_homepage_categories"})
+        @*@await Component.InvokeAsync("HomepageCategories")*@
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeProducts })
+        @await Component.InvokeAsync("HomepageProducts")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeBestSellers })
+        @await Component.InvokeAsync("HomepageBestSellers")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeNews })
+        @await Component.InvokeAsync("HomepageNews")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforePoll })
+        @await Component.InvokeAsync("HomepagePolls")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBottom })
+    </div>
+</div>

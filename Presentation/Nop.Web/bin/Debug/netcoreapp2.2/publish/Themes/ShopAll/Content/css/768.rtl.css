@@ -1,0 +1,284 @@
+﻿@media all and (min-width: 769px) {
+
+    .side-2,
+    .page-title h1,
+    .variant-picture,
+    .variant-overview .add-to-wishlist-button,
+    .cart-collaterals,
+    .blog-page .tags > *,
+    .blogpost-page .tags > *,
+    .comment-info {
+        float: right;
+    }
+
+    .link-rss,
+    .shopping-cart-page .totals,
+    .order-details-page .page-title a,
+    .order-details-page .cart-total {
+        float: left;
+    }
+    /* LEFT/RIGHT COLUMN */
+
+    .block,
+    .poll .buttons,
+    .poll-total-votes,
+    /* CATEGORY PAGE & GRIDS */
+    .breadcrumb,
+    .product-selectors,
+    .item-box .buttons,
+    .product-grid.home-page-product-grid .item-grid .item-box .details .add-info,
+    .product-grid.bestsellers .item-grid .item-box .details .add-info,
+    .overview .buttons,
+    .category-description p,
+    .manufacturer-description p,
+    .full-description p,
+    .topic-block p,
+    .topic-page p,
+    .post-body p,
+    .news-body p,
+    .also-purchased-products-grid.product-grid .title,
+    .related-products-grid.product-grid .title,
+    .attribute-squares,
+    /* REVIEW PAGE */
+    /* WISHLIST & COMPARE LIST */
+    .wishlist-content .buttons,
+    .avatar-page .buttons,
+    .registration-page .fieldset .title,
+    .registration-page .inputs,
+    .section.address-item,
+    .section.request-item,
+    .section.order-item,
+    /* SHOPPING CART & CHECKOUT */
+    .shopping-cart-page .page-title h1,
+    .page-title h1,
+    .blogpost-page .post-date,
+    .news-item-page .news-date,
+    .comment-list .news-comment,
+    .home-page-product-grid .buttons,
+    .bestsellers .buttons {
+        text-align: right;
+    }
+
+    .category-page .buttons,
+    .product-tag-page .buttons,
+    .recently-viewed-products-page .buttons,
+    .recently-added-products-page .buttons{
+        text-align:center;
+    }
+
+    .pager ul,
+    .compare-products-table .overview p:first-child,
+    .order-details-page .actions {
+        text-align: left;
+    }
+    .order-details-page .tax-shipping-info,
+    .order-details-page .checkout-attributes{
+        text-align:left;
+    }
+    .product-grid.home-page-product-grid .picture, 
+    .product-grid.bestsellers .picture{
+        float:right;
+    }
+    /* GLOBAL STYLES */
+
+    .center-2 {
+        float: left;
+        padding: 0 0 0 1%;
+    }
+    /* HEADER */
+    /* HEADER MENU */
+    /* FOOTER */
+
+    .footer-upper .footer-nav > li,
+    .footer-middle .footer-nav > li {
+        background: url("../../Content/img/separator.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    }
+
+    .side-2 .block.block-category-navigation .list .active .sublist li {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .breadcrumb li:first-child * {
+        margin-right: 0;
+    }
+
+    .product-selectors > div {
+        margin: 0 0 0 10px;
+    }
+
+    .pager li {
+        margin: 0 10px 0 0;
+    }
+
+    .product-grid.home-page-product-grid .item-grid .item-box .details,
+    .product-grid.bestsellers .item-grid .item-box .details {
+        right: 48%;
+        left: auto;
+        text-align: right;
+    }
+
+    .home-page-category-grid .item-grid .item-box:nth-child(2n) {
+        margin-left: 0.5%;
+    }
+
+    .home-page-category-grid .item-grid .item-box:nth-child(3n+1) {
+        margin-left: 0;
+    }
+
+    .product-list .item-box .picture {
+        float: right;
+    }
+    .product-list .item-box .prices {
+        text-align: right;
+    }
+
+    .overview .buttons div {
+        margin: 0 0 10px 10px;
+    }
+
+    .overview .qty-label,
+    .variant-overview .qty-label {
+        right: 0;
+        left: auto;
+        margin: 0 0 0 5px;
+    }
+
+    .variant-picture + .variant-overview {
+        margin: 0 235px 0 0;
+        text-align: right;
+    }
+
+    .variant-overview .add-to-cart-button {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .gallery {
+        float: right;
+        margin: 0 0 5% 2%;
+    }
+
+    .product-details-page .overview {
+        text-align: right;
+        margin: 0 0 5% 1%;
+    }
+
+    .also-purchased-products-grid.product-grid .item-box:nth-child(2n),
+    .related-products-grid.product-grid .item-box:nth-child(2n) {
+        margin: 0 1% 1% 0;
+    }
+
+    .attributes dt {
+        float: right;
+        clear: right;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .attributes dd {
+        float: right;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    /* GIFT CARD */
+
+    .giftcard label {
+        margin: 0 0 0 10px;
+    }
+
+    .wishlist-content .button-2 {
+        margin: 0 0 0 10px;
+    }
+
+    .compare-products-page .clear-list {
+        left: 0;
+        right: auto;
+    }
+    /* PASSWORD PROTECTION */
+    /* CONTACT PAGE & EMAILaFRIEND */
+    /* REGISTRATION, LOGIN, MY ACCOUNT */
+
+    .address-list .buttons,
+    .order-list .buttons {
+        left: 10px;
+        right: auto;
+    }
+
+    .avatar-page .fieldset {
+        float: right;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .registration-page .inputs label {
+        padding: 0 0 0 10px;
+        text-align: left;
+    }
+
+    .checkout-page .address-item {
+        float: right;
+        margin: 0 0 2% 2%;
+    }
+
+    .cross-sells .details {
+        right: 47%;
+        left: auto;
+    }
+
+    .blog-page .tags label,
+    .blogpost-page .tags label {
+        margin: 0 0 0 10px;
+    }
+
+    .comment-info + .comment-content {
+        margin: 0 135px 0 0;
+    }
+
+    .page.category-page .item-box:nth-child(2n) {
+        margin: 0 1% 1% 0;
+    }
+    .category-page .product-grid .product-title{
+        text-align:center;
+    }
+
+    .manufacturer-grid .item-box:nth-child(2n) {
+        margin: 0 1% 1% 0;
+    }
+
+    .manufacturer-item .title {
+        right: 0;
+        left: 0;
+    }
+
+    .manufacturer-item .picture {
+        right: 0;
+        left: 0;
+    }
+
+    .manufacturer-item .title > a {
+        text-align: right;
+        padding: 0 10px 0 0;
+    }
+    .product-share-button {
+        float: right;
+    }
+    .cross-sells .product-title,
+    .cross-sells .add-info,
+    .cross-sells .buttons{
+        text-align:right;
+    } 
+
+    .product-grid .item-box:nth-child(2n) {
+        margin: 0 1% 1% 0;
+    }
+    .product-grid .product-title {
+        text-align: right;
+    }
+    .reward-points-page .current-balance {
+        text-align: right;
+    }
+
+
+}

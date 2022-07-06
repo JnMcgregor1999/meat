@@ -1,0 +1,34 @@
+﻿@model MinimalThemeSettingsModel
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="EnableNewsletterPopup_OverrideForStore" asp-input="EnableNewsletterPopup" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="EnableNewsletterPopup" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="EnableNewsletterPopup" />
+                </div>
+            </div><div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="NewsletterPopupDelayedShow_OverrideForStore" asp-input="NewsletterPopupDelayedShow" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="NewsletterPopupDelayedShow" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="NewsletterPopupDelayedShow" />
+                </div>
+            </div><div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="NewsletterPopupBackgroundImageId_OverrideForStore" asp-input="NewsletterPopupBackgroundImageId" asp-store-scope="Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="NewsletterPopupBackgroundImageId" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="NewsletterPopupBackgroundImageId" />
+                    <span asp-validation-for="NewsletterPopupBackgroundImageId"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿
+.header.normal .header-menu > ul > li .sublist-wrap {
+	display: none;
+}
+.header.normal .header-menu > ul > li:hover .sublist-wrap.active {
+	display: block;
+}
+
+.header.normal .mega-menu .dropdown {
+	display: none;
+}
+.header.normal .mega-menu >
+.with-dropdown-in-grid:hover .dropdown {
+	display: block;
+}

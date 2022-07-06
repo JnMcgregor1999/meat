@@ -1,0 +1,92 @@
+﻿@media all and (min-width: 481px) {
+
+    .product-grid.home-page-product-grid .item-box,
+    .product-grid.bestsellers .item-box,
+	.order-review-data > div,
+	.order-details-area > div,
+    .shipment-details-area > div {
+        float: right;
+    }
+    /* LEFT/RIGHT COLUMN */
+    .side-2 .block > .title strong,
+    .side-2 .block .list li,
+    .side-2 .block .view-all,
+    .page.category-page .page-title h1,
+    /* SEARCH PAGE & SITEMAP */
+    /* BLOG & NEWS */
+    .blog-page .post, .news-items .news-item,
+    /*combine with post date*/
+    .page.news-list-page .page-title h1,
+    .news-list-homepage .title {
+        text-align: right;
+    }
+
+    .footer-upper .footer-nav > li:last-child {
+        border-left: none;
+    }
+    /* CATEGORY PAGE & GRIDS */
+
+    .item-box {
+        float: right;
+        /*two per row*/
+        margin-right: 1%;
+        /*two per row*/
+        margin-left: 0;
+    }
+
+        .item-box:nth-child(2n+1) {
+            margin-right: 0;
+        }
+
+
+    .product-grid.home-page-product-grid .item-grid .item-box:nth-child(3n-1),
+    .product-grid.bestsellers .item-grid .item-box:nth-child(3n-1) {
+        /*margin: 0 1% 1% 0;*/
+    }
+
+    .product-grid.bestsellers .item-box .details,
+    .product-grid.home-page-product-grid .item-box .details {
+        right: 0;
+        left: auto;
+    }
+
+    .product-grid.home-page-product-grid .details {
+        right: 0;
+        left: auto;
+    }
+
+    .category-page .item-box:nth-child(2n) {
+        margin: 0 1% 1% 0;
+    }
+    .home-page-category-grid .item-grid .item-box:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .product-grid .item-grid .item-box .product-item .details .add-info .buttons {
+        right: 0;
+        left: auto;
+    }
+
+    .product-grid  .details .buttons{
+        text-align:center;
+    }   
+
+    .item-box .details .add-info .prices {
+        right: 0px;
+        left: 0px;
+    }
+    .search-box input.search-box-text {
+        width: 361px !important;
+    }
+    .product-grid .product-title{
+        text-align:center;
+    }
+
+    .item-box:nth-child(2n) {
+        margin-left: 0;
+    }
+    .home-page-product-grid .product-grid .product-title{
+        text-align:center;
+    }
+    
+}

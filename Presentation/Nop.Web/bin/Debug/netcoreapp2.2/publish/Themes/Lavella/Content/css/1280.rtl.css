@@ -1,0 +1,48 @@
+﻿
+/*=====================================================
+    
+    DESKTOP - LARGE
+
+=====================================================*/
+
+@media all and (min-width: 1281px) {
+    .header-content-wrapper,
+    .master-home-page .home-page .topic-block,
+    .master-home-page .home-page .home-page-category-grid,
+    .master-home-page .home-page .home-page-product-grid,
+    .master-home-page .home-page .bestsellers,
+    .master-home-page .home-page .products-carousel,
+    .master-home-page .home-page .news-list-homepage,
+    .master-home-page .home-page .categories-carousel,
+    .master-home-page .home-page .manufacturers-carousel,
+    .home-page-bottom-banner-wrapper,
+    .master-wrapper-content,
+    .footer-upper,
+    .footer-upper.full-width .fu-wrapper,
+    .fm-wrapper {
+        width: 1200px;
+    }
+    .product-grid .item-box .product-item .buttons {
+        top: 150px;
+    }
+    .inputs label {
+        width: 402px;
+    }
+    .gender label {
+        width: auto;
+    }
+    .customer-info-page .inputs label, .change-password-page .inputs label,
+    .account-page.address-edit-page .inputs label {
+        width: 240px;
+    }
+    .cart-collaterals {
+        width: 730px;
+    }
+
+    .cart-footer .totals {
+        width: 370px;
+    }
+    .checkout-page .edit-address label {
+        width: 400px;
+    }
+}

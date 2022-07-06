@@ -1,0 +1,31 @@
+.smart-theme-roller {
+    left: -250px !important;
+}
+.smart-theme-roller.opened {
+    left: 0 !important;
+}
+
+.eu-cookie-bar-notification {
+	border: 1px solid #999;
+}
+
+.flyout-cart {
+	border: 1px solid #999;
+}
+
+.styleSelect_item {
+	border-bottom: 1px solid #999;
+}
+
+.header-menu .sublist {
+	margin-top: -1px;
+	border: 1px solid #999 !important;
+}
+
+.mega-menu .dropdown {
+    background: #333 !important;
+}
+
+.news-list-homepage {
+	display: none;
+}

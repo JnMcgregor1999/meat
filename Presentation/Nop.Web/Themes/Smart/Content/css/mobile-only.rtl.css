@@ -1,0 +1,94 @@
+@media all and (max-width: 1024px) {
+
+    .header-menu > ul li > .with-subcategories {
+        float: right;
+    }
+
+    .header-menu .close-menu, .header-menu .back-button {
+        text-align: left;
+    }
+
+    .responsive-nav-wrapper > div > span {
+        padding: 15px 50px 15px 15px;
+    }
+
+    .responsive-nav-wrapper .menu-title {
+        background-position: 87px center;
+    }
+
+    .responsive-nav-wrapper .filters-button {
+        background-position: 110px center;
+    }
+
+    .overlayOffCanvas {
+        right: 0;
+        left: auto;
+    }
+
+    .justAFixingDivBefore {
+        right: 0;
+        left: auto;
+    }
+
+    .header-menu,
+    .header-menu .sublist-wrap {
+        right: 0;
+        left: auto;
+    }
+
+	.header-menu .close-menu:before,
+	.header-menu .back-button:before {
+		right: 10px;
+		left: auto;
+	}
+
+	.header-menu .plus-button {
+		float: left;
+		border-right: 1px dotted #5be;
+		border-left: 0;
+		background: url('../img/prev.png') center no-repeat;
+	}
+
+	.notAndroid23 .justAFixingDivBefore,
+	.notAndroid23 .header-menu {
+		-webkit-transform: translate(320px);
+		-ms-transform: translate(320px);
+		transform: translate(320px);
+	}
+	.android23 .justAFixingDivBefore,
+	.android23 .header-menu {
+		right: -320px;
+	}        
+	.notAndroid23 .header-menu.open {
+		-webkit-transform: translate(0);
+		-ms-transform: translate(0);
+		transform: translate(0);
+	}
+	.android23 .header-menu.open {
+		right: 0;
+	}
+
+	.notAndroid23 .header-menu .sublist-wrap {
+		-webkit-transform: translate(320px);
+		-ms-transform: translate(320px);
+		transform: translate(320px);
+	}
+	.android23 .header-menu .sublist-wrap {
+		right: -320px;
+	}
+	.notAndroid23 .header-menu .sublist-wrap.active {
+		-webkit-transform: translate(0);
+		-ms-transform: translate(0);
+		transform: translate(0);
+	}
+	.android23 .header-menu .sublist-wrap.active {
+		right: 0;
+	}
+
+	.move-right {
+		-webkit-transform: translate(0) !important;
+		-ms-transform: translate(0) !important;
+		transform: translate(0) !important;        
+	}
+
+}

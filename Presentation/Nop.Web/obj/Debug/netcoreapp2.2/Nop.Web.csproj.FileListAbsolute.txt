@@ -313,3 +313,13 @@ C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\S
 C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\SevenSpikes.Theme.Minimal\plugin.json
 C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Themes\Minimal\theme.json
 C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\App_Data\plugins.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\SevenSpikes.Theme.Lavella\plugin.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\SevenSpikes.Theme.ShopAll\plugin.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\SevenSpikes.Theme.Smart\plugin.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Themes\Lavella\theme.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Themes\ShopAll\theme.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Themes\Smart\theme.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\Payments.PayPalSmartPaymentButtons\Nop.Plugin.Payments.PayPalSmartPaymentButtons.deps.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\Payments.PayPalSmartPaymentButtons\plugin.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\Shipping.FixedByWeightByTotal\Nop.Plugin.Shipping.FixedByWeightByTotal.deps.json
+C:\Repository\meatWebSite\Presentation\Nop.Web\bin\Debug\netcoreapp2.2\Plugins\Shipping.FixedByWeightByTotal\plugin.json
