@@ -13,3 +13,17 @@ C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Ser
 C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CopyComplete
 C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.dll
 C:\Repository\meatWebSite\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.pdb
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.deps.json
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.dll
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.pdb
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\Repositories\meat\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csprojAssemblyReference.cache
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CoreCompileInputs.cache
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfoInputs.cache
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfo.cs
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CopyComplete
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.dll
+D:\Repositories\meat\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.pdb

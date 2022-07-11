@@ -1,5 +1,5 @@
 ﻿{
   "DataProvider": "sqlserver",
-  "DataConnectionString": "Data Source=localhost;Initial Catalog=meat;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=ABC123xyz",
+  "DataConnectionString": "Data Source=DESKTOP-64GT8R8\\SQLEXPRESS;Initial Catalog=meat;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=admin123",
   "RawDataSettings": {}
 }

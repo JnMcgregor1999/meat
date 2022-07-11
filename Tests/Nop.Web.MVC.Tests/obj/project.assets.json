@@ -16949,26 +16949,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Koko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "4.2.0",
     "restore": {
-      "projectUniqueName": "C:\\Repository\\meatWebSite\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "projectUniqueName": "D:\\Repositories\\meat\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
       "projectName": "Nop.Web.MVC.Tests",
-      "projectPath": "C:\\Repository\\meatWebSite\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
-      "packagesPath": "C:\\Users\\Koko\\.nuget\\packages\\",
-      "outputPath": "C:\\Repository\\meatWebSite\\Tests\\Nop.Web.MVC.Tests\\obj\\",
+      "projectPath": "D:\\Repositories\\meat\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\meat\\Tests\\Nop.Web.MVC.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Koko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -16980,13 +16977,12 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Repository\\meatWebSite\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Repository\\meatWebSite\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "D:\\Repositories\\meat\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "D:\\Repositories\\meat\\Presentation\\Nop.Web\\Nop.Web.csproj"
             },
-            "C:\\Repository\\meatWebSite\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "C:\\Repository\\meatWebSite\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "D:\\Repositories\\meat\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "D:\\Repositories\\meat\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             }
           }
         }
@@ -16999,7 +16995,6 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -17021,16 +17016,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

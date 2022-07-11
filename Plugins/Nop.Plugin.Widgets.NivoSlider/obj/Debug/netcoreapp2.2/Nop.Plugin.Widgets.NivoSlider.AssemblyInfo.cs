@@ -19,7 +19,6 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("Nop.Plugin.Widgets.NivoSlider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nop.Plugin.Widgets.NivoSlider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/nopSolutions/nopCommerce")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

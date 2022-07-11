@@ -22,7 +22,6 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("Nop.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nop.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("4.2.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/nopSolutions/nopCommerce")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

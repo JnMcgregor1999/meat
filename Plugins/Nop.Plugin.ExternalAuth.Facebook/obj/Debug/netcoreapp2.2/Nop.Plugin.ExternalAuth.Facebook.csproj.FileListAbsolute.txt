@@ -1,0 +1,17 @@
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook_logo.png
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\plugin.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\Configure.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\PublicInfo.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\_ViewImports.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.deps.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.csprojAssemblyReference.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.csproj.CoreCompileInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.AssemblyInfoInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.AssemblyInfo.cs
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.csproj.CopyComplete
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Repositories\meat\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\netcoreapp2.2\Nop.Plugin.ExternalAuth.Facebook.pdb

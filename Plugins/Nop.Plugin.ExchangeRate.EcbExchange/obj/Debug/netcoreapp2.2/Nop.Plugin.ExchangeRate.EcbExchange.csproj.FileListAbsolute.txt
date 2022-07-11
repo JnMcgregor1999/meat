@@ -1,0 +1,12 @@
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\logo.jpg
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\plugin.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.deps.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.dll
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.pdb
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.csprojAssemblyReference.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.csproj.CoreCompileInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.AssemblyInfoInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.AssemblyInfo.cs
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.csproj.CopyComplete
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.dll
+D:\Repositories\meat\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\netcoreapp2.2\Nop.Plugin.ExchangeRate.EcbExchange.pdb

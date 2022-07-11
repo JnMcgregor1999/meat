@@ -1,14 +1,11 @@
 ﻿{
   "InstalledPluginNames": [
     "SevenSpikes.Core",
-    "SevenSpikes.Theme.Minimal",
-    "SevenSpikes.Theme.Lavella",
-    "SevenSpikes.Theme.ShopAll",
-    "SevenSpikes.Theme.Smart",
-    "Payments.PayPalSmartPaymentButtons",
-    "Shipping.FixedByWeightByTotal"
+    "Payments.PayPalSmartPaymentButtons", "Shipping.FixedByWeightByTotal"
   ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],
-  "PluginNamesToInstall": []
+  "PluginNamesToInstall": [
+    
+  ]
 }

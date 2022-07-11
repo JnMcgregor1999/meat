@@ -1,0 +1,16 @@
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Content\styles.css
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\logo.png
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\plugin.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Views\Configure.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Views\PaymentInfo.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Views\_ViewImports.cshtml
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Nop.Plugin.Payments.Square.deps.json
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Nop.Plugin.Payments.Square.dll
+D:\Repositories\meat\Presentation\Nop.Web\Plugins\Payments.Square\Nop.Plugin.Payments.Square.pdb
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.csprojAssemblyReference.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.csproj.CoreCompileInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.AssemblyInfoInputs.cache
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.AssemblyInfo.cs
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.csproj.CopyComplete
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.dll
+D:\Repositories\meat\Plugins\Nop.Plugin.Payments.Square\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Square.pdb

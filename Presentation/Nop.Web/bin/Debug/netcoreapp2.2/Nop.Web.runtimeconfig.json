@@ -7,8 +7,7 @@
     },
     "configProperties": {
       "System.GC.Concurrent": false,
-      "System.GC.Server": false,
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
+      "System.GC.Server": false
     }
   }
 }

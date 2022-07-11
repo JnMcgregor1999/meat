@@ -11,3 +11,15 @@ C:\Repository\meatWebSite\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.cs
 C:\Repository\meatWebSite\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CopyComplete
 C:\Repository\meatWebSite\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.dll
 C:\Repository\meatWebSite\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Repositories\meat\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.deps.json
+D:\Repositories\meat\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Repositories\meat\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Repositories\meat\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\Repositories\meat\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csprojAssemblyReference.cache
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CoreCompileInputs.cache
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.AssemblyInfoInputs.cache
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.AssemblyInfo.cs
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CopyComplete
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Repositories\meat\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.pdb
